@@ -103,6 +103,11 @@
     "hero": {
       "title": "Our Mission is to Save Lives",
       "subtitle": "Connecting donors with hematology centers to ensure no one waits for hope."
+    },
+    "history": {
+      "title": "Our History and Purpose",
+      "description1": "Vida em Rede was born from the urgent need to modernize blood donation in Brazil. In a scenario where blood shortages are recurrent, we realized that technology could be the fundamental bridge.",
+      "description2": "We act as a digital facilitator between those who want to donate and the institutions that need vital supplies. Our focus is to optimize the flow of donations through precise data, agile communication, and, above all, empathy."
     }
   }
 }

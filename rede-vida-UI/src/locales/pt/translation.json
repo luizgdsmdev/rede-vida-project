@@ -103,6 +103,11 @@
       "hero": {
         "title": "Nossa Missão é Salvar Vidas",
         "subtitle": "Conectando doadores a centros de hematologia para garantir que ninguém espere por uma esperança."
+      },
+      "history": {
+        "title": "Nossa História e Propósito",
+        "description1": "Vida em Rede nasceu da necessidade urgente de modernizar a doação de sangue no Brasil. Em um cenário onde a falta de estoques é recorrente, percebemos que a tecnologia poderia ser a ponte fundamental.",
+        "description2": "Atuamos como um facilitador digital entre quem deseja doar e as instituições que precisam de suprimentos vitais. Nosso foco é otimizar o fluxo de doações através de dados precisos, comunicação ágil e, acima de tudo, empatia."
       }
     }
   }

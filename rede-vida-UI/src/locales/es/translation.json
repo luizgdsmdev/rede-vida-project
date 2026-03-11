@@ -103,6 +103,11 @@
     "hero": {
       "title": "Nuestra misión es salvar vidas",
       "subtitle": "Conectando donantes con centros de hematología para garantizar que nadie espere una esperanza."
+    },
+    "history": {
+      "title": "Nuestra Historia y Propósito",
+      "description1": "Vida en Red nació de la necesidad urgente de modernizar la donación de sangre en Brasil. En un escenario donde las escaseces de sangre son recurrentes, nos dimos cuenta de que la tecnología podría ser el puente fundamental.",
+      "description2": "Actuamos como un facilitador digital entre quienes desean donar y las instituciones que necesitan suministros vitales. Nuestro enfoque es optimizar el flujo de donaciones a través de datos precisos, comunicación ágil y, sobre todo, empatía."
     }
   }
 }
