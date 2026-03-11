@@ -25,7 +25,7 @@ const LanguageSelector = () => {
         className="flex items-center gap-2 px-3 py-2 rounded-lg border border-[#f3e7e9] dark:border-[#3d2a2d] bg-white dark:bg-background-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
         aria-label="Change language"
       >
-        <span className="text-lg flex-shrink-0">{currentLanguage.flag}</span>
+        <span className="text-lg flex-shrink-0 text-[#1b0e10] dark:text-gray-300">{currentLanguage.flag}</span>
         <span className="text-sm font-medium text-[#1b0e10] dark:text-gray-300">
           {currentLanguage.name}
         </span>
