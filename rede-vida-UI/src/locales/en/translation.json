@@ -1,6 +1,7 @@
 {
   "hero_title": "Your donation is the heartbeat of many lives",
   "donate_now": "Donate Now",
+  "become_donor": "Become a Donor Now",
   "navigation": {
     "about": "About",
     "locations": "Locations",
@@ -108,6 +109,126 @@
       "title": "Our History and Purpose",
       "description1": "Vida em Rede was born from the urgent need to modernize blood donation in Brazil. In a scenario where blood shortages are recurrent, we realized that technology could be the fundamental bridge.",
       "description2": "We act as a digital facilitator between those who want to donate and the institutions that need vital supplies. Our focus is to optimize the flow of donations through precise data, agile communication, and, above all, empathy."
+    },
+    "values": {
+      "title": "Our Values",
+      "transparency": {
+        "title": "Transparency",
+        "description": "Clear processes and real-time information about blood stock levels at each unit."
+      },
+      "humanity": {
+        "title": "Humanity",
+        "description": "We put people at the center of everything, treating each donor and recipient with the respect and care they deserve."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We use cutting-edge technology to predict demands and facilitate intelligent donation scheduling."
+      }
+    },
+    "howtWorks": {
+      "title": "How It Works",
+      "step1": "Create Your Profile",
+      "step2": "Find a Center",
+      "step3": "Schedule Your Donation",
+      "step4": "Save Lives",
+      "button": "I Want to Be a Donor Now"
+    }
+  },
+  "requirements": {
+    "hero": {
+      "title": "Who Can Donate Blood?",
+      "description": "Your donation can save up to four lives. Check the requirements and prepare for this act of solidarity that transforms the world.",
+      "button": "Schedule My Donation"
+    },
+    "basicRequirements": {
+      "title": "Basic Requirements",
+      "description": "To be a donor, you need to meet these fundamental criteria:",
+      "age": {
+        "title": "Age",
+        "description": "Be between 16 and 69 years old (minors with authorization)."
+      },
+      "weight": {
+        "title": "Weight",
+        "description": "Have a minimum weight of 50kg to ensure safety."
+      },
+      "health": {
+        "title": "Health",
+        "description": "Feel well and in good general health."
+      },
+      "document": {
+        "title": "Document",
+        "description": "Present an original photo ID."
+      }
+    },
+    "impediments": {
+      "title": "Impediments to Donation",
+      "description": "Know the temporary and permanent impediments for blood donation",
+      "temporariesTitle": "Temporary Impediments",
+      "temporariesIcon": "schedule",
+      "temporaries": {
+        "gripeResfriado": "Gripe/Resfriado",
+        "gripeResfriadoDescription": "Wait 7 days after the end of symptoms.",
+        "gravidez": "Gravidez",
+        "gravidezDescription": "90 days after normal birth and 180 days after cesarean section.",
+        "tatuagem": "Tatuagem",
+        "tatuagemDescription": "Wait 12 months after the realization.",
+        "ingestaoAlcoolica": "Ingestão Alcoólica",
+        "ingestaoAlcoolicaDescription": "Wait 12 hours after consumption."
+      },
+      "definitivesTitle": "Permanent Impediments",
+      "definitivesIcon": "block",
+      "definitives": {
+        "hepatite": "Hepatite",
+        "hepatiteDescription": "People with a history of hepatitis B or C cannot donate.",
+        "diseases": "Severe Diseases",
+        "diseasesDescription": "Severe diseases such as HIV, hepatitis B or C, cancer, among others.",
+        "cardiopatia": "Cardiopatia",
+        "cardiopatiaDescription": "Severe heart or lung diseases.",
+        "drogas": "Drugs",
+        "drogasDescription": "Use of illegal injectable drugs."
+      }
+    },
+    "preparation": {
+        "title": "Preparation for Donation",
+        "description": "Follow these steps to ensure a safe and comfortable donation experience",
+        "hydration": {
+          "title": "Hydration",
+          "description": "Drink plenty of water in the 24 hours before donation"
+        },
+        "nutrition": {
+          "title": "Nutrition",
+          "description": "Eat a good meal and avoid fatty foods before donation"
+        },
+        "alcohol": {
+          "title": "Alcohol",
+          "description": "Avoid alcohol consumption before donation"
+        },
+        "noFasting": {
+          "title": "No Fasting",
+          "description": "Eat normally, avoiding fasting"
+        },
+        "sleep": {
+          "title": "Good Sleep",
+          "description": "Get at least 6 hours of sleep the night before"
+        },
+        "rest": {
+          "title": "Rest",
+          "description": "Come well rested and avoid intense physical activity before donation"
+        },
+        "avoidFats": {
+          "title": "Avoid Fats",
+          "description": "Avoid fatty foods 3 hours before donation"
+        },
+        "medications": {
+          "title": "Medications",
+          "description": "Inform the staff about any medication you are taking"
+        }
+      },
+    "cta": {
+      "title": "Ready to Donate?",
+      "description": "There are many blood centers spread throughout the city. Choose the nearest one and schedule your appointment online.",
+      "findCenters": "Find Centers",
+      "faq": "Frequently Asked Questions"
     }
   }
 }

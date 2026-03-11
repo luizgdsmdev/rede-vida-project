@@ -1,6 +1,7 @@
 {
   "hero_title": "Tu donación es el latido de muchas vidas",
   "donate_now": "Dona Ahora",
+  "become_donor": "Quiero Ser Donante Ahora",
   "navigation": {
     "about": "Acerca de",
     "locations": "Ubicaciones",
@@ -108,6 +109,126 @@
       "title": "Nuestra Historia y Propósito",
       "description1": "Vida en Red nació de la necesidad urgente de modernizar la donación de sangre en Brasil. En un escenario donde las escaseces de sangre son recurrentes, nos dimos cuenta de que la tecnología podría ser el puente fundamental.",
       "description2": "Actuamos como un facilitador digital entre quienes desean donar y las instituciones que necesitan suministros vitales. Nuestro enfoque es optimizar el flujo de donaciones a través de datos precisos, comunicación ágil y, sobre todo, empatía."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "transparency": {
+        "title": "Transparencia",
+        "description": "Procesos claros e información en tiempo real sobre los niveles de stock de sangre en cada unidad."
+      },
+      "humanity": {
+        "title": "Humanidad",
+        "description": "Ponemos a las personas en el centro de todo, tratando a cada donante y receptor con el respeto y el cuidado que merecen."
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Utilizamos tecnología de punta para prever demandas y facilitar la programación inteligente de donaciones."
+      }
+    },
+    "howtWorks": {
+      "title": "Cómo Funciona",
+      "step1": "Crea Tu Perfil",
+      "step2": "Encuentra Un Centro",
+      "step3": "Agenda Tu Donación",
+      "step4": "Salva Vidas",
+      "button": "Quiero Ser Donante Ahora"
     }
-  }
+  },
+  "requirements": {
+      "hero": {
+        "title": "¿Quién Puede Donar Sangre?",
+        "description": "Tu donación puede salvar hasta cuatro vidas. Revisa los requisitos y prepárate para este acto de solidaridad que transforma el mundo.",
+        "button": "Agenda Mi Donación"
+      },
+      "basicRequirements": {
+        "title": "Requisitos Básicos",
+        "description": "Para ser donante, necesitas cumplir con estos criterios fundamentales:",
+        "age": {
+          "title": "Edad",
+          "description": "Estar entre 16 y 69 años (menores con autorización)."
+        },
+        "weight": {
+          "title": "Peso",
+          "description": "Tener un peso mínimo de 50kg para garantizar la seguridad."
+        },
+        "health": {
+          "title": "Salud",
+          "description": "Sentirse bien y en buenas condiciones generales de salud."
+        },
+        "document": {
+          "title": "Documento",
+          "description": "Presentar un documento oficial original con foto."
+        }
+      },
+      "impediments": {
+        "title": "Impedimentos para la Donación",
+        "description": "Conoce los impedimentos temporales y permanentes para la donación de sangre",
+        "temporariesTitle": "Impedimentos Temporales",
+        "temporariesIcon": "schedule",
+        "temporaries": {
+        "gripeResfriado": "Gripe/Resfriado",
+        "gripeResfriadoDescription": "Aguardar 7 dias después de que terminen los síntomas.",
+        "gravidez": "Gravidez",
+        "gravidezDescription": "90 dias após parto normal e 180 dias após cesariana.",
+        "tatuagem": "Tatuagem",
+        "tatuagemDescription": "Aguardar 12 meses após a realización.",
+        "ingestaoAlcoolica": "Ingestão Alcoólica",
+        "ingestaoAlcoolicaDescription": "Aguardar 12 horas após o consumo."
+      },
+      "definitivesTitle": "Impedimentos Definitivos",
+      "definitivesIcon": "block",
+      "definitives": {
+        "hepatite": "Hepatite",
+        "hepatiteDescription": "Personas con historial de hepatitis B o C no pueden donar.",
+        "diseases": "Enfermedades Graves",
+        "diseasesDescription": "Enfermedades graves como HIV, hepatitis B o C, cáncer, entre otras.",
+        "cardiopatia": "Cardiopatía",
+        "cardiopatiaDescription": "Enfermedades graves del corazón o pulmón.",
+        "drogas": "Drogas",
+        "drogasDescription": "Uso de drogas ilícitas."
+      }
+      },
+      "preparation": {
+        "title": "Preparación para la Donación",
+        "description": "Sigue estos pasos para garantizar una experiencia de donación segura y cómoda",
+        "hydration": {
+          "title": "Hidratación",
+          "description": "Bebe mucha agua en las 24 horas antes de la donación"
+        },
+        "nutrition": {
+          "title": "Nutrición",
+          "description": "Come una buena comida y evita los alimentos grasos antes de la donación"
+        },
+        "alcohol": {
+          "title": "Alcohol",
+          "description": "Evita el consumo de alcohol antes de la donación"
+        },
+        "noFasting": {
+          "title": "Sin ayuno",
+          "description": "Alimentate normalmente, evitando estar en ayunas"
+        },
+        "sleep": {
+          "title": "Duerme bien",
+          "description": "Duerme por lo menos 6 horas la noche anterior"
+        },
+        "rest": {
+          "title": "Descanso",
+          "description": "Ven bien descansado y evita la actividad física intensa antes de la donación"
+        },
+        "avoidFats": {
+          "title": "Evitar grasas",
+          "description": "Evita los alimentos grasos 3 horas antes de la donación"
+        },
+        "medications": {
+          "title": "Medicamentos",
+          "description": "Informa al personal sobre cualquier medicamento que estés tomando"
+        }
+      },
+      "cta": {
+        "title": "¿Listo para Donar?",
+        "description": "Existen diversos hemocentros esparcidos por la ciudad. Elige el más cercano y agenda tu cita en línea.",
+        "findCenters": "Buscar Centros",
+        "faq": "Preguntas Frecuentes"
+      }
+    }
 }

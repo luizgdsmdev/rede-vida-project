@@ -1,6 +1,7 @@
 {
   "hero_title": "Sua doação é o pulsar de muitas vidas",
   "donate_now": "Doe Agora",
+  "become_donor": "Quero Ser Donante Agora",
   "navigation": {
     "about": "Sobre",
     "locations": "Locais",
@@ -108,6 +109,126 @@
         "title": "Nossa História e Propósito",
         "description1": "Vida em Rede nasceu da necessidade urgente de modernizar a doação de sangue no Brasil. Em um cenário onde a falta de estoques é recorrente, percebemos que a tecnologia poderia ser a ponte fundamental.",
         "description2": "Atuamos como um facilitador digital entre quem deseja doar e as instituições que precisam de suprimentos vitais. Nosso foco é otimizar o fluxo de doações através de dados precisos, comunicação ágil e, acima de tudo, empatia."
+      },
+      "values": {
+        "title": "Nossos Valores",
+        "transparency": {
+          "title": "Transparência",
+          "description": "Processos claros e informações em tempo real sobre os níveis dos estoques de sangue em cada unidade."
+        },
+        "humanity": {
+          "title": "Humanidade",
+          "description": "Colocamos as pessoas no centro de tudo, tratando cada doador e receptor com o respeito e o cuidado que merecem."
+        },
+        "innovation": {
+          "title": "Inovação",
+          "description": "Utilizamos tecnologia de ponta para prever demandas e facilitar o agendamento de doações de forma inteligente."
+        }
+      },
+      "howtWorks": {
+        "title": "Como Funciona",
+        "step1": "Crie Seu Perfil",
+        "step2": "Encontre Um Centro",
+        "step3": "Agende Sua Doação",
+        "step4": "Salve Vidas",
+        "button": "Quero Ser Donante Agora"
+      }
+    },
+    "requirements": {
+      "hero": {
+        "title": "Quem Pode Doar Sangue?",
+        "description": "Sua doação pode salvar até quatro vidas. Confira os requisitos e prepare-se para este ato de solidariedade que transforma o mundo.",
+        "button": "Agenda Minha Doação"
+      },
+      "basicRequirements": {
+        "title": "Requisitos Básicos",
+        "description": "Para ser donante, você precisa atender estes critérios fundamentais:",
+        "age": {
+          "title": "Idade",
+          "description": "Ter entre 16 e 69 anos (menores com autorização)."
+        },
+        "weight": {
+          "title": "Peso",
+          "description": "Pesar no mínimo 50kg para garantir a segurança."
+        },
+        "health": {
+          "title": "Saúde",
+          "description": "Está se sentindo bem e em boas condições de saúde geral."
+        },
+        "document": {
+          "title": "Documento",
+          "description": "Apresentar um documento de identidade original com foto."
+        }
+      },
+      "impediments": {
+        "title": "Impedimentos para a Doação",
+        "description": "Conheça os impedimentos temporários e definitivos para a doação de sangue",
+        "temporariesTitle": "Impedimentos Temporários",
+        "temporariesIcon": "schedule",
+        "temporaries": {
+        "gripeResfriado": "Gripe/Resfriado",
+        "gripeResfriadoDescription": "Aguardar 7 dias após o fim dos sintomas.",
+        "gravidez": "Gravidez",
+        "gravidezDescription": "90 dias após parto normal e 180 dias após cesariana.",
+        "tatuagem": "Tatuagem",
+        "tatuagemDescription": "Aguardar 12 meses após a realização.",
+        "ingestaoAlcoolica": "Ingestão Alcoólica",
+        "ingestaoAlcoolicaDescription": "Aguardar 12 horas após o consumo."
+      },
+      "definitivesTitle": "Impedimentos Definitivos",
+      "definitivesIcon": "block",
+      "definitives": {
+        "hepatite": "Hepatite",
+        "hepatiteDescription": "Pessoas com histórico de hepatite B ou C não podem doar.",
+        "diseases": "Doenças Graves",
+        "diseasesDescription": "Doenças graves como HIV, hepatite B ou C, câncer, entre outras.",
+        "cardiopatia": "Cardiopatia",
+        "cardiopatiaDescription": "Doenças graves do coração ou pulmões.",
+        "drogas": "Drogas",
+        "drogasDescription": "Uso de drogas ilícitas injetáveis."
+      }
+      },
+      "preparation": {
+        "title": "Preparação para a Doação",
+        "description": "Siga estes passos para garantir uma experiência de doação segura e confortável",
+        "hydration": {
+          "title": "Hidratação",
+          "description": "Bebe muita água nas 24 horas antes da doação"
+        },
+        "nutrition": {
+          "title": "Nutrição",
+          "description": "Coma uma boa refeição e evite alimentos gordurosos antes da doação"
+        },
+        "rest": {
+          "title": "Descanso",
+          "description": "Venha bem descansado e evite atividades físicas intensas antes da doação"
+        },
+        "medications": {
+          "title": "Medicamentos",
+          "description": "Informe ao pessoal sobre qualquer medicamento que você esteja tomando"
+        },
+        "sleep": {
+          "title": "Durma bem",
+          "description": "Ter dormido pelo menos 6 horas na noite anterior"
+        },
+        "alcohol": {
+          "title": "Álcool",
+          "description": "Evite o consumo de álcool antes da doação"
+        },
+        "noFasting": {
+          "title": "Sem jejum",
+          "description": "Alimente-se normalmente, evitando ficar em jejum"
+        },
+        "avoidFats": {
+          "title": "Evitar gorduras",
+          "description": "Evite alimentos gordurosos 3 horas antes da doação"
+        }
+      },
+      "cta": {
+        "title": "Pronto para Doar?",
+        "description": "Existem diversos hemocentros espalhados pela cidade. Escolha o mais próximo e agende seu horário online.",
+        "findCenters": "Encontrar Centros",
+        "faq": "Perguntas Frequentes"
       }
     }
   }

@@ -4,6 +4,7 @@ import StatsSection from './statsSection/StatsSection'
 
 import InteractiveSearch from './interactiveSearch/InteractiveSearch'
 import InformationCards from './informationCards/InformationCards'
+import CtaSection from './ctaSection/CtaSection'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <StatsSection />
       <InteractiveSearch />
       <InformationCards />
+      <CtaSection />
     </div>
   )
 }
