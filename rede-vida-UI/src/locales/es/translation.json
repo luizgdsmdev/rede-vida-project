@@ -50,7 +50,31 @@
         "address": "R. Enéas de Carvalho Aguiar, 155 - Cerqueira César",
         "distance": "0.8 km de distância",
         "schedule": "Agendar",
-        "closed": "Cerrado"
+        "closed": "Cerrado",
+        "hemocentroTitleMap": "Central SP",
+        "mapMode": "Modo Mapa Interativo"
+    },
+    "informationCards": {
+      "title": "Prepara tu Donación",
+      "subtitle": "Todo lo que necesitas saber para realizar este acto de amor con seguridad y tranquilidad.",
+      "requirements": {
+        "title": "Requisitos",
+        "description": "Tener entre 16 y 69 años, pesar más de 50kg y estar descansado. Verifique la lista completa de impedimentos temporarios.",
+        "link": "Ver critérios completos",
+        "icon": "checklist"
+      },
+      "appointment": {
+        "title": "Agendamento",
+        "description": "Evite filas e aglomerações. Escolha o melhor horário no hemocentro de sua preferência através da nossa plataforma integrada.",
+        "link": "Marcar horário agora",
+        "icon": "event_available"
+      },
+      "contact": {
+        "title": "Contacto",
+        "description": "Si tiene alguna pregunta sobre el proceso de donación, puede contactarnos a través de los siguientes medios.",
+        "link": "Contacto",
+        "icon": "contact_page"
+      }
     }
   }
 }

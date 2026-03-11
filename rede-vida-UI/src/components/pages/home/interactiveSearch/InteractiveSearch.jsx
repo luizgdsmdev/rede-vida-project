@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const InteractiveSearch = () => {
   const { t } = useTranslation();
   return (
-    <section className="w-full bg-[#f8f6f6] dark:bg-background-dark py-16">
+    <section className="w-full bg-[#f8f6f6] dark:bg-background-dark-2 py-16">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-40">
             <ScrollAnimation animation="fade-up" delay={100}>
                 <div className="flex flex-col gap-2 mb-10">
@@ -71,7 +71,7 @@ const InteractiveSearch = () => {
                     <div className="p-5 border-b border-gray-100 dark:border-gray-800 hover:bg-primary/5 cursor-pointer transition-colors">
                         <div className="flex justify-between items-start mb-2">
                             <h3 className="font-bold text-[#1b0e10] dark:text-white">{t('home.interactiveSearch.hemocentroTitle')}</h3>
-                            <span className="text-[10px] font-bold px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded uppercase">{t('home.interactiveSearch.closed')}</span>
+                            <span className="text-[10px] font-bold px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded uppercase">{t('home.interactiveSearch.open')}</span>
                         </div>
                         <p className="text-xs text-gray-500 dark:text-gray-400 mb-3 flex items-start gap-1">
                         <span className="material-symbols-outlined text-[14px]">location_on</span>{t('home.interactiveSearch.address')}</p>
@@ -89,7 +89,7 @@ const InteractiveSearch = () => {
                         <div className="relative">
                             <div className="absolute -top-12 -left-20 bg-white dark:bg-background-dark p-2 rounded shadow-lg border border-primary/20 flex items-center gap-2">
                                 <span className="material-symbols-outlined text-primary text-sm">water_drop</span>
-                                <span className="text-[10px] font-bold whitespace-nowrap">Central SP</span>
+                                <span className="text-[10px] font-bold whitespace-nowrap">{t('home.interactiveSearch.hemocentroTitleMap')}</span>
                             </div>
                             <span className="material-symbols-outlined text-primary text-4xl drop-shadow-md">location_on</span>
                         </div>
@@ -100,7 +100,7 @@ const InteractiveSearch = () => {
                             <span className="material-symbols-outlined text-primary/60 text-3xl">location_on</span>
                         </div>
                     </div>
-                    <div className="absolute bottom-4 right-4 bg-white/90 dark:bg-background-dark/90 p-2 rounded shadow-md text-[10px] font-bold uppercase tracking-widest border border-gray-100 dark:border-gray-800">Modo Mapa Interativo</div>
+                    <div className="absolute bottom-4 right-4 bg-white/90 dark:bg-background-dark/90 p-2 rounded shadow-md text-[10px] font-bold uppercase tracking-widest border border-gray-100 dark:border-gray-800">{t('home.interactiveSearch.mapMode')}</div>
                 </div>
             </div>
         </div>

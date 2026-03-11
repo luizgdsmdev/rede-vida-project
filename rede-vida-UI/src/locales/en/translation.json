@@ -50,7 +50,31 @@
       "address": "R. Enéas de Carvalho Aguiar, 155 - Cerqueira César",
       "distance": "0.8 km de distância",
       "schedule": "Schedule",
-      "closed": "Closed"
+      "closed": "Closed",
+      "hemocentroTitleMap": "Central SP",
+      "mapMode": "Interactive Map Mode"
+    },
+    "informationCards": {
+      "title": "Prepare your Donation",
+      "subtitle": "Everything you need to know to make this act of love safely and confidently.",
+      "requirements": {
+        "title": "Requirements",
+        "description": "Be between 16 and 69 years old, weigh more than 50kg and be well rested. Check the complete list of temporary impediments.",
+        "link": "View complete criteria",
+        "icon": "checklist"
+      },
+      "appointment": {
+        "title": "Appointment",
+        "description": "Avoid queues and crowds. Choose the best time at your preferred blood bank through our integrated platform.",
+        "link": "Book appointment now",
+        "icon": "event_available"
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "If you have any questions about the donation process, you can contact us through the following channels.",
+        "link": "Contact",
+        "icon": "contact_page"
+      }
     }
   }
 }

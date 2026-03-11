@@ -4,6 +4,7 @@ import ThemeToggle from '../../shared/themeToggle/ThemeToggle'
 import StatsSection from './statsSection/StatsSection'
 
 import InteractiveSearch from './interactiveSearch/InteractiveSearch'
+import InformationCards from './informationCards/InformationCards'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <HeroSection />
       <StatsSection />
       <InteractiveSearch />
+      <InformationCards />
       <ThemeToggle />
     </div>
   )
