@@ -98,5 +98,11 @@
     "copyright": "© 2026 Vida em Rede. All rights reserved. Made with love by donors for donors.",
     "hashtag1": "#DonateBlood",
     "hashtag2": "#SaveLives"
+  },
+  "about": {
+    "hero": {
+      "title": "Our Mission is to Save Lives",
+      "subtitle": "Connecting donors with hematology centers to ensure no one waits for hope."
+    }
   }
 }

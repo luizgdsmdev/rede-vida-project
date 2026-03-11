@@ -98,5 +98,11 @@
     "copyright": "© 2026 Vida en Red. Todos los derechos reservados. Hecho con amor por donantes para donantes.",
     "hashtag1": "#DonaSangre",
     "hashtag2": "#SalvaVidas"
+  },
+  "about": {
+    "hero": {
+      "title": "Nuestra misión es salvar vidas",
+      "subtitle": "Conectando donantes con centros de hematología para garantizar que nadie espere una esperanza."
+    }
   }
 }

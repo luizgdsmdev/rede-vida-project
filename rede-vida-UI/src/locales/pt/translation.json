@@ -98,5 +98,11 @@
       "copyright": "© 2026 Vida em Rede. Todos os direitos reservados. Feito com amor por doadores para doadores.",
       "hashtag1": "#DoeSangue",
       "hashtag2": "#SalveVidas"
+    },
+    "about": {
+      "hero": {
+        "title": "Nossa Missão é Salvar Vidas",
+        "subtitle": "Conectando doadores a centros de hematologia para garantir que ninguém espere por uma esperança."
+      }
     }
-}
+  }

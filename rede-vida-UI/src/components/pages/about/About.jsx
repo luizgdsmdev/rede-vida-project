@@ -1,8 +1,10 @@
-import React from 'react'
+import HeroSection from "./heroSection/HeroSection"
 
 function About() {
   return (
-    <div>About</div>
+    <div className="bg-background-light dark:bg-background-dark min-h-screen">
+      <HeroSection />
+    </div>
   )
 }
 
