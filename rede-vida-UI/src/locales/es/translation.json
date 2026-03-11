@@ -1,4 +1,10 @@
 {
   "hero_title": "Tu donación es el latido de muchas vidas",
-  "donate_now": "Dona Ahora"
+  "donate_now": "Dona Ahora",
+  "navigation": {
+    "about": "Acerca de",
+    "locations": "Ubicaciones",
+    "requirements": "Requisitos",
+    "contact": "Contacto"
+  }
 }

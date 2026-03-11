@@ -1,4 +1,10 @@
 {
   "hero_title": "Your donation is the pulse of many lives",
-  "donate_now": "Donate Now"
+  "donate_now": "Donate Now",
+  "navigation": {
+    "about": "About",
+    "locations": "Locations",
+    "requirements": "Requirements",
+    "contact": "Contact"
+  }
 }

@@ -1,4 +1,10 @@
 {
   "hero_title": "Sua doação é o pulsar de muitas vidas",
-  "donate_now": "Doe Agora"
+  "donate_now": "Doe Agora",
+  "navigation": {
+    "about": "Sobre",
+    "locations": "Locais",
+    "requirements": "Requisitos",
+    "contact": "Contato"
+  }
 }
