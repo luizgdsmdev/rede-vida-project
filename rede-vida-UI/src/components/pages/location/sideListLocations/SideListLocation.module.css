@@ -1,0 +1,22 @@
+/* Firefox */
+.scrollbar-transparent {
+  scrollbar-width: thin;
+  scrollbar-color: transparent;
+}
+
+.scrollbar-transparent::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.3);
+  border-radius: 9999px;
+}
+
+.scrollbar-transparent::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-transparent::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.5);
+}
+
+.scrollbar-transparent::-webkit-scrollbar-track:hover {
+  background: transparent;
+}

@@ -138,7 +138,7 @@
       "hero": {
         "title": "Quem Pode Doar Sangue?",
         "description": "Sua doação pode salvar até quatro vidas. Confira os requisitos e prepare-se para este ato de solidariedade que transforma o mundo.",
-        "button": "Agenda Minha Doação"
+        "button": "Agendar Minha Doação"
       },
       "basicRequirements": {
         "title": "Requisitos Básicos",
@@ -230,5 +230,26 @@
         "findCenters": "Encontrar Centros",
         "faq": "Perguntas Frequentes"
       }
+    },
+    "location": {
+      "hero": {
+        "title": "Hemocentros e Pontos de Coleta",
+        "description": "Encontre o local mais próximo para doar e salvar vidas. Filtrar por tipo de unidade ou localidade."
+      },
+      "filters": {
+        "all": "Todos",
+        "fixed": "Fixos",
+        "mobile": "Móveis",
+        "hemocentroCentral": "Hemocentro Central",
+        "mobileUnit": "Unidad Móvil",
+        "bloodCenter": "Centro de Sangre",
+        "open": "Aberto",
+        "closed": "Fechado",
+        "schedule": "Agendar",
+        "hemocentroCentralHours": "Atenção até as 17:30",
+        "mobileUnitReturn": "Retorna amanhã às 08:00",
+        "hemocentroCentralAddress": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP"
+      },
+      "searchPlaceholder": "Buscar por cidade ou código postal"
     }
   }

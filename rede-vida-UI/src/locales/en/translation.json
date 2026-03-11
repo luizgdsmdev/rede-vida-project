@@ -230,5 +230,26 @@
       "findCenters": "Find Centers",
       "faq": "Frequently Asked Questions"
     }
+  },
+  "location": {
+    "hero": {
+      "title": "Hemocenters and Collection Points",
+      "description": "Find the nearest location to donate and save lives. Filter by type of unit or location."
+    },
+    "filters": {
+      "all": "All",
+      "fixed": "Fixed",
+      "mobile": "Mobile",
+      "hemocentroCentral": "Hemocentro Central",
+      "mobileUnit": "Mobile Unit",
+      "bloodCenter": "Blood Center",
+      "open": "Open",
+      "closed": "Closed",
+      "schedule": "Schedule",
+      "hemocentroCentralHours": "Attention until 17:30",
+      "mobileUnitReturn": "Returns tomorrow at 08:00",
+      "hemocentroCentralAddress": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP"
+    },
+    "searchPlaceholder": "Search by city or ZIP code"
   }
 }

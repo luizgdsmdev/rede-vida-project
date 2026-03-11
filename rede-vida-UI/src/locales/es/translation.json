@@ -230,5 +230,26 @@
         "findCenters": "Buscar Centros",
         "faq": "Preguntas Frecuentes"
       }
-    }
+  },
+  "location": {
+    "hero": {
+      "title": "Hemocentros y Puntos de Colaboración",
+      "description": "Encuentra el lugar más cercano para donar y salvar vidas. Filtra por tipo de unidad o ubicación."
+    },
+    "filters": {
+      "all": "Todos",
+      "fixed": "Fijos",
+      "mobile": "Móviles",
+      "hemocentroCentral": "Hemocentro Central",
+      "mobileUnit": "Unidad Móvil",
+      "bloodCenter": "Centro de Sangre",
+      "open": "Abierto",
+      "closed": "Cerrado",
+      "schedule": "Agendar",
+      "hemocentroCentralHours": "Atención hasta las 17:30",
+      "mobileUnitReturn": "Retorna mañana a las 08:00",
+      "hemocentroCentralAddress": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP"
+    },
+    "searchPlaceholder": "Buscar por ciudad o código postal"
+  }
 }
