@@ -13,60 +13,60 @@
       "title_2": "donación",
       "title_3": "es el latido de muchas vidas",
       "tag": "Iniciativa Solidaria",
-      "inputPlaceholder": "Digite su ciudad o CEP",
+      "inputPlaceholder": "Ingrese su ciudad o código postal",
       "searchButton": "Buscar",
-      "description": "Conectamos donantes con los hemocentros más cercanos de forma rápida y segura. Descubre dónde tu ayuda es más necesaria ahora.",
+      "description": "Conectamos donantes con los centros de sangre más cercanos de forma rápida y segura. Descubre dónde tu ayuda es más necesaria ahora.",
       "inputPlaceholderLabel": "¿Dónde quieres donar?",
       "statsSection": {
-        "livesSaved": "Vidas Salvas",
-        "activeDonors": "Doadores Ativos",
-        "bloodCenters": "Hemocentros",
-        "appointments": "Agendamentos",
+        "livesSaved": "Vidas salvadas",
+        "activeDonors": "Donantes activos",
+        "bloodCenters": "Centros de sangre",
+        "appointments": "Citas",
         "livesSavedIcon": "favorite",
         "activeDonorsIcon": "group",
         "bloodCentersIcon": "domain",
         "appointmentsIcon": "calendar_month",
         "livesSavedValue": "12.543",
-        "livesSavedPercentage": "+15% este mês",
+        "livesSavedPercentage": "+15% este mes",
         "activeDonorsValue": "4.218",
         "activeDonorsPercentage": "Meta: 5.000",
         "bloodCentersValue": "84",
-        "bloodCentersPercentage": "Em 12 estados",
+        "bloodCentersPercentage": "En 12 estados",
         "appointmentsValue": "962",
-        "appointmentsPercentage": "Hoje"
+        "appointmentsPercentage": "Hoy"
       },
       "heroImage": {
-        "title": "Más de 50 Hemocentros",
-        "subtitle": "Parceiros certificados em todo o país"
+        "title": "Más de 50 centros de sangre",
+        "subtitle": "Socios certificados en todo el país"
       }
     },
     "interactiveSearch": {
-        "title": "Encuentra un Hemocentro",
-        "description": "Vea los lugares de recolección más cercanos a usted y agenda su visita.",
-        "searchIcon": "search",
-        "searchPlaceholder": "Filtrar por nombre o bairro...",
-        "hemocentroTitle": "Hemocentro Central SP",
-        "open": "Abierto",
-        "address": "R. Enéas de Carvalho Aguiar, 155 - Cerqueira César",
-        "distance": "0.8 km de distância",
-        "schedule": "Agendar",
-        "closed": "Cerrado",
-        "hemocentroTitleMap": "Central SP",
-        "mapMode": "Modo Mapa Interativo"
+      "title": "Encuentra un centro de sangre",
+      "description": "Vea los lugares de recolección más cercanos a usted y agende su visita.",
+      "searchIcon": "search",
+      "searchPlaceholder": "Filtrar por nombre o barrio...",
+      "hemocentroTitle": "Centro de Sangre Central SP",
+      "open": "Abierto",
+      "address": "R. Enéas de Carvalho Aguiar, 155 - Cerqueira César",
+      "distance": "0.8 km de distancia",
+      "schedule": "Agendar",
+      "closed": "Cerrado",
+      "hemocentroTitleMap": "Central SP",
+      "mapMode": "Modo mapa interactivo"
     },
     "informationCards": {
-      "title": "Prepara tu Donación",
+      "title": "Prepara tu donación",
       "subtitle": "Todo lo que necesitas saber para realizar este acto de amor con seguridad y tranquilidad.",
       "requirements": {
         "title": "Requisitos",
-        "description": "Tener entre 16 y 69 años, pesar más de 50kg y estar descansado. Verifique la lista completa de impedimentos temporarios.",
-        "link": "Ver critérios completos",
+        "description": "Tener entre 16 y 69 años, pesar más de 50 kg y estar descansado. Consulta la lista completa de impedimentos temporales.",
+        "link": "Ver criterios completos",
         "icon": "checklist"
       },
       "appointment": {
-        "title": "Agendamento",
-        "description": "Evite filas e aglomerações. Escolha o melhor horário no hemocentro de sua preferência através da nossa plataforma integrada.",
-        "link": "Marcar horário agora",
+        "title": "Agendamiento",
+        "description": "Evite filas y aglomeraciones. Elija el mejor horario en el centro de sangre de su preferencia a través de nuestra plataforma integrada.",
+        "link": "Reservar horario ahora",
         "icon": "event_available"
       },
       "contact": {
@@ -76,5 +76,27 @@
         "icon": "contact_page"
       }
     }
+  },
+  "footer": {
+    "title": "Vida en Red",
+    "description": "Una plataforma dedicada a salvar vidas conectando corazones generosos con quienes más lo necesitan.",
+    "navigation": "Navegación",
+    "home": "Página inicial",
+    "about": "Sobre nosotros",
+    "hemocenters": "Centros de sangre",
+    "faq": "Preguntas frecuentes",
+    "donate": "Dona sangre",
+    "requirements": "Requisitos de donación",
+    "preparation": "Preparación para el día",
+    "postDonation": "Postdonación",
+    "myths": "Mitos y verdades",
+    "support": "Soporte",
+    "contact": "Contacto",
+    "partnerships": "Alianzas",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfUse": "Términos de uso",
+    "copyright": "© 2026 Vida en Red. Todos los derechos reservados. Hecho con amor por donantes para donantes.",
+    "hashtag1": "#DonaSangre",
+    "hashtag2": "#SalvaVidas"
   }
 }

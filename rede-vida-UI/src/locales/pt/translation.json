@@ -76,5 +76,27 @@
         "icon": "contact_page"
       }
     }
-  }
+  },
+  "footer": {
+      "title": "Vida em Rede",
+      "description": "Uma plataforma dedicada a salvar vidas conectando corações generosos a quem mais precisa de sangue.",
+      "navigation": "Navegação",
+      "home": "Página Inicial",
+      "about": "Sobre Nós",
+      "hemocenters": "Hemocentros",
+      "faq": "Dúvidas Frequentes",
+      "donate": "Doe Sangue",
+      "requirements": "Requisitos de Doação",
+      "preparation": "Preparação para o Dia",
+      "postDonation": "Pós-Doação",
+      "myths": "Mitos e Verdades",
+      "support": "Suporte",
+      "contact": "Contato",
+      "partnerships": "Parcerias",
+      "privacyPolicy": "Política de Privacidade",
+      "termsOfUse": "Termos de Uso",
+      "copyright": "© 2026 Vida em Rede. Todos os direitos reservados. Feito com amor por doadores para doadores.",
+      "hashtag1": "#DoeSangue",
+      "hashtag2": "#SalveVidas"
+    }
 }

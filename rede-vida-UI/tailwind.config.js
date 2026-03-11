@@ -12,6 +12,7 @@ export default {
         "background-light": "#f8f6f5",
         "background-dark": "#23110f",
         "background-dark-2": "#2b1d1c",
+        "background-dark-footer": "rgb(27 14 16 / var(--tw-bg-opacity, 1))",
       },
       fontFamily: {
         display: ["Inter", "sans-serif"],

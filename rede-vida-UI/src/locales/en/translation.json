@@ -1,5 +1,5 @@
 {
-  "hero_title": "Your donation is the pulse of many lives",
+  "hero_title": "Your donation is the heartbeat of many lives",
   "donate_now": "Donate Now",
   "navigation": {
     "about": "About",
@@ -11,62 +11,62 @@
     "hero": {
       "title_1": "Your",
       "title_2": "donation",
-      "title_3": "is the pulse of many lives",
+      "title_3": "is the heartbeat of many lives",
       "tag": "Solidarity Initiative",
       "inputPlaceholder": "Enter your city or ZIP code",
       "searchButton": "Search",
-      "description": "We connect donors with the nearest blood banks quickly and safely. Discover where your help is needed most right now.",
+      "description": "We connect donors with the nearest blood centers quickly and safely. Discover where your help is needed most right now.",
       "inputPlaceholderLabel": "Where do you want to donate?",
       "statsSection": {
         "livesSaved": "Lives Saved",
         "activeDonors": "Active Donors",
-        "bloodCenters": "Blood Banks",
+        "bloodCenters": "Blood Centers",
         "appointments": "Appointments",
         "livesSavedIcon": "favorite",
         "activeDonorsIcon": "group",
         "bloodCentersIcon": "domain",
         "appointmentsIcon": "calendar_month",
-        "livesSavedValue": "12.543",
+        "livesSavedValue": "12,543",
         "livesSavedPercentage": "+15% this month",
-        "activeDonorsValue": "4.218",
-        "activeDonorsPercentage": "Goal: 5.000",
+        "activeDonorsValue": "4,218",
+        "activeDonorsPercentage": "Goal: 5,000",
         "bloodCentersValue": "84",
         "bloodCentersPercentage": "In 12 states",
         "appointmentsValue": "962",
         "appointmentsPercentage": "Today"
       },
       "heroImage": {
-        "title": "More than 50 Blood Banks",
+        "title": "More than 50 Blood Centers",
         "subtitle": "Certified partners throughout the country"
       }
     },
     "interactiveSearch": {
-      "title": "Find a Blood Bank",
-      "description": "See the nearest collection sites and schedule your visit.",
+      "title": "Find a Blood Center",
+      "description": "See the nearest donation locations and schedule your visit.",
       "searchIcon": "search",
       "searchPlaceholder": "Filter by name or neighborhood...",
-      "hemocentroTitle": "Hemocentro Central SP",
+      "hemocentroTitle": "Central SP Blood Center",
       "open": "Open",
       "address": "R. Enéas de Carvalho Aguiar, 155 - Cerqueira César",
-      "distance": "0.8 km de distância",
+      "distance": "0.8 km away",
       "schedule": "Schedule",
       "closed": "Closed",
       "hemocentroTitleMap": "Central SP",
       "mapMode": "Interactive Map Mode"
     },
     "informationCards": {
-      "title": "Prepare your Donation",
-      "subtitle": "Everything you need to know to make this act of love safely and confidently.",
+      "title": "Prepare Your Donation",
+      "subtitle": "Everything you need to know to perform this act of love safely and confidently.",
       "requirements": {
         "title": "Requirements",
-        "description": "Be between 16 and 69 years old, weigh more than 50kg and be well rested. Check the complete list of temporary impediments.",
-        "link": "View complete criteria",
+        "description": "Be between 16 and 69 years old, weigh more than 50 kg, and be well rested. Check the full list of temporary restrictions.",
+        "link": "View full criteria",
         "icon": "checklist"
       },
       "appointment": {
         "title": "Appointment",
-        "description": "Avoid queues and crowds. Choose the best time at your preferred blood bank through our integrated platform.",
-        "link": "Book appointment now",
+        "description": "Avoid queues and crowds. Choose the best time at your preferred blood center through our integrated platform.",
+        "link": "Book an appointment now",
         "icon": "event_available"
       },
       "contact": {
@@ -76,5 +76,27 @@
         "icon": "contact_page"
       }
     }
+  },
+  "footer": {
+    "title": "Vida em Rede",
+    "description": "A platform dedicated to saving lives by connecting generous hearts with those who need blood the most.",
+    "navigation": "Navigation",
+    "home": "Home",
+    "about": "About Us",
+    "hemocenters": "Blood Centers",
+    "faq": "Frequently Asked Questions",
+    "donate": "Donate Blood",
+    "requirements": "Donation Requirements",
+    "preparation": "Preparation for the Day",
+    "postDonation": "Post-Donation",
+    "myths": "Myths and Truths",
+    "support": "Support",
+    "contact": "Contact",
+    "partnerships": "Partnerships",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "copyright": "© 2026 Vida em Rede. All rights reserved. Made with love by donors for donors.",
+    "hashtag1": "#DonateBlood",
+    "hashtag2": "#SaveLives"
   }
 }
