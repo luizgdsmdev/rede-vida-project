@@ -1,9 +1,27 @@
 import { useState, useEffect } from 'react'
 
 function ThemeToggle() {
-  const [isDark, setIsDark] = useState(() => 
-    document.documentElement.classList.contains('dark')
-  )
+  const [isDark, setIsDark] = useState(() => {
+    const savedTheme = localStorage.getItem('theme')
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    
+    if (savedTheme) {
+      return savedTheme === 'dark'
+    }
+    return prefersDark
+  })
+
+  useEffect(() => {
+    // Aplica o tema inicial
+    if (isDark) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+    
+    // Salva no localStorage
+    localStorage.setItem('theme', isDark ? 'dark' : 'light')
+  }, [isDark])
 
   useEffect(() => {
     const observer = new MutationObserver(() => {
