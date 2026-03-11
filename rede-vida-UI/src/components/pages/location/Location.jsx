@@ -1,8 +1,12 @@
-import React from 'react'
+import PageSearch from './pageSearch/PageSearch'
+import SideListLocations from './sideListLocations/SideListLocations'
 
 function Location() {
   return (
-    <div>Location</div>
+    <div className="w-full bg-background-light dark:bg-background-dark-2">
+      <PageSearch />
+      <SideListLocations />
+    </div>
   )
 }
 
