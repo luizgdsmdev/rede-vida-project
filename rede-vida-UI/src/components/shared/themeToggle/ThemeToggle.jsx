@@ -12,14 +12,14 @@ function ThemeToggle() {
   })
 
   useEffect(() => {
-    // Aplica o tema inicial
+    // Apply the initial theme
     if (isDark) {
       document.documentElement.classList.add('dark')
     } else {
       document.documentElement.classList.remove('dark')
     }
     
-    // Salva no localStorage
+    // Save to localStorage
     localStorage.setItem('theme', isDark ? 'dark' : 'light')
   }, [isDark])
 
