@@ -12,7 +12,9 @@ function ThemeToggle() {
   })
 
   useEffect(() => {
-    // Apply the initial theme
+    // Apply the initial theme without transitions
+    document.documentElement.classList.add('no-transition')
+    
     if (isDark) {
       document.documentElement.classList.add('dark')
     } else {
@@ -21,25 +23,27 @@ function ThemeToggle() {
     
     // Save to localStorage
     localStorage.setItem('theme', isDark ? 'dark' : 'light')
+    
+    // Remove no-transition class after initial theme is set
+    setTimeout(() => {
+      document.documentElement.classList.remove('no-transition')
+    }, 100)
   }, [isDark])
-
-  useEffect(() => {
-    const observer = new MutationObserver(() => {
-      setIsDark(document.documentElement.classList.contains('dark'))
-    })
-    
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ['class']
-    })
-    
-    return () => observer.disconnect()
-  }, [])
 
   const toggleTheme = () => {
     const newIsDark = !isDark
+    
+    // Add transition class for smooth animation to body
+    document.body.classList.add('theme-transitioning')
+    
+    // Toggle the theme
     document.documentElement.classList.toggle('dark')
     setIsDark(newIsDark)
+    
+    // Remove transition class after animation completes
+    setTimeout(() => {
+      document.body.classList.remove('theme-transitioning')
+    }, 450)
   }
 
   return (

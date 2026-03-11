@@ -9,3 +9,67 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+/* Smooth theme transitions */
+* {
+    transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 350ms;
+}
+
+/* Faster transitions for interactive elements */
+button, a, input, select, textarea {
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Slower transitions for background elements */
+body, html, section, .bg-white, .dark\:bg-background-dark {
+    transition-duration: 450ms;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Simple theme transition without affecting layout */
+@keyframes theme-transition {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.98;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.theme-transitioning::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    pointer-events: none;
+    z-index: 9999;
+    animation: theme-transition 0.45s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Enhanced smooth color transitions for specific elements */
+.bg-\[fcf8f9\], .dark\:bg-background-dark\/50,
+.border-\[\#e7d0d4\], .dark\:border-\[\#3d2a2d\] {
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Ultra smooth transitions for text */
+.text-\[\#1b0e10\], .dark\:text-gray-300,
+.dark\:text-white, .text-primary {
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Prevent transitions during initial load */
+.no-transition * {
+    transition: none !important;
+}
