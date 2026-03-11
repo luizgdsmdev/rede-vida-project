@@ -17,10 +17,40 @@
       "searchButton": "Buscar",
       "description": "Conectamos doadores com os hemocentros mais próximos de forma rápida e segura. Descubra onde sua ajuda é mais necessária agora.",
       "inputPlaceholderLabel": "Onde você quer doar?",
+      "statsSection": {
+        "livesSaved": "Vidas Salvas",
+        "activeDonors": "Doadores Ativos",
+        "bloodCenters": "Hemocentros",
+        "appointments": "Agendamentos",
+        "livesSavedIcon": "favorite",
+        "activeDonorsIcon": "group",
+        "bloodCentersIcon": "domain",
+        "appointmentsIcon": "calendar_month",
+        "livesSavedValue": "12.543",
+        "livesSavedPercentage": "+15% este mês",
+        "activeDonorsValue": "4.218",
+        "activeDonorsPercentage": "Meta: 5.000",
+        "bloodCentersValue": "84",
+        "bloodCentersPercentage": "Em 12 estados",
+        "appointmentsValue": "962",
+        "appointmentsPercentage": "Hoje"
+      },
       "heroImage": {
         "title": "Mais de 50 Hemocentros",
         "subtitle": "Parceiros certificados em todo o país"
       }
+    },
+    "interactiveSearch": {
+      "title": "Encontre um Hemocentro",
+      "description": "Veja os locais de coleta mais próximos de você e agende sua visita.",
+      "searchIcon": "search",
+      "searchPlaceholder": "Filtrar por nome ou bairro...",
+      "hemocentroTitle": "Hemocentro Central SP",
+      "open": "Aberto",
+      "address": "R. Enéas de Carvalho Aguiar, 155 - Cerqueira César",
+      "distance": "0.8 km de distância",
+      "schedule": "Agendar",
+      "closed": "Fechado"
     }
   }
 }
