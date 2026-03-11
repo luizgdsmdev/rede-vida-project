@@ -6,5 +6,21 @@
     "locations": "Locations",
     "requirements": "Requirements",
     "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title_1": "Your",
+      "title_2": "donation",
+      "title_3": "is the pulse of many lives",
+      "tag": "Solidarity Initiative",
+      "inputPlaceholder": "Enter your city or ZIP code",
+      "searchButton": "Search",
+      "description": "We connect donors with the nearest blood banks quickly and safely. Discover where your help is needed most right now.",
+      "inputPlaceholderLabel": "Where do you want to donate?",
+      "heroImage": {
+        "title": "More than 50 Blood Banks",
+        "subtitle": "Certified partners throughout the country"
+      }
+    }
   }
 }

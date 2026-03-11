@@ -6,5 +6,21 @@
     "locations": "Locais",
     "requirements": "Requisitos",
     "contact": "Contato"
+  },
+  "home": {
+    "hero": {
+      "title_1": "Sua",
+      "title_2": "doação",
+      "title_3": "é o pulsar de muitas vidas",
+      "tag": "Iniciativa Solidária",
+      "inputPlaceholder": "Digite sua cidade ou CEP",
+      "searchButton": "Buscar",
+      "description": "Conectamos doadores com os hemocentros mais próximos de forma rápida e segura. Descubra onde sua ajuda é mais necessária agora.",
+      "inputPlaceholderLabel": "Onde você quer doar?",
+      "heroImage": {
+        "title": "Mais de 50 Hemocentros",
+        "subtitle": "Parceiros certificados em todo o país"
+      }
+    }
   }
 }

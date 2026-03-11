@@ -6,5 +6,21 @@
     "locations": "Ubicaciones",
     "requirements": "Requisitos",
     "contact": "Contacto"
+  },
+  "home": {
+    "hero": {
+      "title_1": "Tu",
+      "title_2": "donación",
+      "title_3": "es el latido de muchas vidas",
+      "tag": "Iniciativa Solidaria",
+      "inputPlaceholder": "Digite su ciudad o CEP",
+      "searchButton": "Buscar",
+      "description": "Conectamos donantes con los hemocentros más cercanos de forma rápida y segura. Descubre dónde tu ayuda es más necesaria ahora.",
+      "inputPlaceholderLabel": "¿Dónde quieres donar?",
+      "heroImage": {
+        "title": "Más de 50 Hemocentros",
+        "subtitle": "Parceiros certificados em todo o país"
+      }
+    }
   }
 }
