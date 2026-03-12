@@ -1,8 +1,13 @@
 import React from 'react'
+import HeroSection from './heroSection/HeroSection'
+import ContactFormSection from './contactFormSection/ContactFormSection'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <HeroSection />
+      <ContactFormSection />
+    </div>
   )
 }
 

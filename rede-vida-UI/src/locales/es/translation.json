@@ -251,5 +251,29 @@
       "hemocentroCentralAddress": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP"
     },
     "searchPlaceholder": "Buscar por ciudad o código postal"
+  },
+  "contact": {
+    "hero": {
+      "title": "Hable con Nosotros",
+      "subtitle": "Estamos aquí para apoyar a donantes e instituciones en cada paso del viaje de donación. Haz tus preguntas a través de nuestro asistente o envíanos un correo electrónico.",
+      "ctaButton": "Iniciar Conversación",
+      "card": {
+        "title": "Atención Humana",
+        "subtitle": "Respuesta por correo electrónico en hasta 24h"
+      }
+    },
+    "form": {
+      "title": "Enviar un Mensaje",
+      "subtitle": "Llene el formulario a continuación y le responderemos lo antes posible.",
+      "name": "Nombre",
+      "namePlaceholder": "Su nombre completo",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "sucorreo@ejemplo.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿Cómo podemos ayudar?",
+      "message": "Mensaje",
+      "messagePlaceholder": "Escriba su mensaje aquí...",
+      "submitButton": "Enviar Mensaje"
+    }
   }
 }
