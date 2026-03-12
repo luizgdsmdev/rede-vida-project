@@ -1,6 +1,6 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 import ScrollAnimation from '../../../shared/ScrollAnimation/ScrollAnimation'
+import { Link } from 'react-router-dom'
 
 function CTASection() {
   const { t } = useTranslation()
@@ -16,17 +16,17 @@ function CTASection() {
             <ScrollAnimation animation="fade-up" delay={200}>
                 <div className="flex flex-wrap justify-center gap-6">
                     <ScrollAnimation animation="fade-up" delay={300}>
-                        <button className="group bg-primary hover:bg-primary/90 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-all hover:shadow-xl hover:-translate-y-1 flex items-center gap-3">
+                        <Link to="/location" className="group bg-primary hover:bg-primary/90 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-all hover:shadow-xl hover:-translate-y-1 flex items-center gap-3">
                             <span className="material-symbols-outlined text-2xl">location_on</span>
                             <span>{t('requirements.cta.findCenters')}</span>
-                        </button>
+                        </Link>
                     </ScrollAnimation>
 
                     <ScrollAnimation animation="fade-up" delay={400}>
-                        <button className="group bg-background-light dark:bg-background-dark border-2 border-primary text-primary font-bold px-8 py-4 rounded-xl hover:border-primary/80 hover:bg-primary/5 transition-all hover:shadow-xl hover:-translate-y-1 flex items-center gap-3">
+                        <Link to="/requirements" className="group bg-background-light dark:bg-background-dark border-2 border-primary text-primary font-bold px-8 py-4 rounded-xl hover:border-primary/80 hover:bg-primary/5 transition-all hover:shadow-xl hover:-translate-y-1 flex items-center gap-3">
                             <span className="material-symbols-outlined text-2xl">help</span>
                             <span>{t('requirements.cta.faq')}</span>
-                        </button>
+                        </Link>
                     </ScrollAnimation>
                 </div>
             </ScrollAnimation>

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import ScrollAnimation from '../../../shared/ScrollAnimation/ScrollAnimation'
+import { Link } from 'react-router-dom'
 
 function HeroSection() {
   const { t } = useTranslation()
@@ -15,9 +16,9 @@ function HeroSection() {
                     </div>
                     </ScrollAnimation>
                     <ScrollAnimation animation="fade-up" delay={200}>
-                    <button className="flex w-fit cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-8 bg-primary text-slate-900 text-base font-bold transition-transform hover:scale-105 active:scale-95 shadow-md max-[680px]:mx-auto">
+                    <Link to="/login" className="flex w-fit cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-8 bg-primary text-slate-900 text-base font-bold transition-transform hover:scale-105 active:scale-95 shadow-md max-[680px]:mx-auto">
                         <span className="truncate dark:text-slate-100">{t('requirements.hero.button')}</span>
-                    </button>
+                    </Link>
                     </ScrollAnimation>
                 </div>
                 <div className="w-full lg:w-auto lg:flex-1">

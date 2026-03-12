@@ -1,4 +1,3 @@
-import React from 'react'
 import HeroSection from './heroSection/HeroSection'
 import ContactFormSection from './contactFormSection/ContactFormSection'
 

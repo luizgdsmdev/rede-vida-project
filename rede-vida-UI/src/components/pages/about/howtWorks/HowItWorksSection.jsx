@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import ScrollAnimation from '../../../shared/ScrollAnimation/ScrollAnimation'
+import { Link } from 'react-router-dom'
 
 function HowItWorksSection() {
   const { t } = useTranslation()
@@ -41,7 +42,7 @@ function HowItWorksSection() {
         </div>
         <ScrollAnimation animation="fade-up" delay={600}>
             <div className="mt-16">
-                <button className="bg-primary text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-primary/90 transition-all shadow-xl shadow-primary/20">{t('about.howtWorks.button')}</button>
+                <Link to="/login" className="bg-primary text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-primary/90 transition-all shadow-xl shadow-primary/20">{t('about.howtWorks.button')}</Link>
             </div>
         </ScrollAnimation>
 
