@@ -48,7 +48,7 @@ function Navigation({ isMenuOpen, toggleMenu }) {
                       {t('navigation.contact')}
                   </Link>
               </nav>
-              <Link to="/donate-now" className="flex min-w-[120px] cursor-pointer items-center justify-center rounded-lg h-10 px-5 bg-primary text-white text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">{t('donate_now')}</Link>
+              <Link to="/donate-now" className="flex min-w-[120px] cursor-pointer items-center justify-center rounded-lg h-10 px-5 bg-primary text-white text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all" onClick={toggleMenu}>{t('donate_now')}</Link>
               <LanguageSelector />
               {/* <div className="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 ring-2 ring-primary/10" alt="User profile avatar placeholder" style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuD07DDp1m9FZix1SQ56dxdr4qgSb2sJZM8eAS_-h-lWJYKJ7IHFurOPMiL95MdMUpSpvQZee4wo5ew6h-zRBH-3K9wnnSH_XcCo7SAUxFSZrU96x4W_h6MvZjMjvKjOu-VcLTz-C4NF98TcZtgH2kOkq_rVHief11i1S6Ms--UJ06iwcEfczPEX8KraA0enp16mLxWLPFenCvPKFAWyAdR0Kax7d-vry-teAgb3m8ze5ibeYKV9LPrSLisgL-OwwsFW1ubiSQJzjA")' }}></div> */}
           </div>
