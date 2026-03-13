@@ -331,5 +331,10 @@
       "urgencyDescription": "Serás avisado cuando haya falta crítica de tu tipo de sangre cerca de ti.",
       "privacyNote": "Tus datos están protegidos por los altos estándares de la LGPD y solo se compartirán con instituciones de salud autorizadas."
     }
-  }
+  },
+    "notFound": {
+      "title": "Ops... ¿Te perdiste?",
+      "description": "La página que buscas no existe. ¿Por qué no intentas volver a la ",
+      "homeLink": "página inicial"
+    }
 }

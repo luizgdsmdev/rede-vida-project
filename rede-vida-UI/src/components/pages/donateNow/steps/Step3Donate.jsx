@@ -28,7 +28,7 @@ function Step3Donate() {
                     onClick={() => setSelectedBloodType('A+')}
                   >
                     <div className="flex items-center justify-center">
-                      <span className="text-xl font-bold text-[#1b0e10] dark:text-white">A+</span>
+                      <span className="text-xl font-bold text-gray-900 dark:text-white">A+</span>
                     </div>
                     {selectedBloodType === 'A+' && (
                       <div className="absolute top-2 right-2">
@@ -45,7 +45,7 @@ function Step3Donate() {
                     onClick={() => setSelectedBloodType('A-')}
                   >
                     <div className="flex items-center justify-center">
-                      <span className="text-xl font-bold text-[#1b0e10] dark:text-white">A-</span>
+                      <span className="text-xl font-bold text-gray-900 dark:text-white">A-</span>
                     </div>
                     {selectedBloodType === 'A-' && (
                       <div className="absolute top-2 right-2">
@@ -62,7 +62,7 @@ function Step3Donate() {
                     onClick={() => setSelectedBloodType('B+')}
                   >
                     <div className="flex items-center justify-center">
-                      <span className="text-xl font-bold text-[#1b0e10] dark:text-white">B+</span>
+                      <span className="text-xl font-bold text-gray-900 dark:text-white">B+</span>
                     </div>
                     {selectedBloodType === 'B+' && (
                       <div className="absolute top-2 right-2">
@@ -79,7 +79,7 @@ function Step3Donate() {
                     onClick={() => setSelectedBloodType('B-')}
                   >
                     <div className="flex items-center justify-center">
-                      <span className="text-xl font-bold text-[#1b0e10] dark:text-white">B-</span>
+                      <span className="text-xl font-bold text-gray-900 dark:text-white">B-</span>
                     </div>
                     {selectedBloodType === 'B-' && (
                       <div className="absolute top-2 right-2">
@@ -96,7 +96,7 @@ function Step3Donate() {
                     onClick={() => setSelectedBloodType('AB+')}
                   >
                     <div className="flex items-center justify-center">
-                      <span className="text-xl font-bold text-[#1b0e10] dark:text-white">AB+</span>
+                      <span className="text-xl font-bold text-gray-900 dark:text-white">AB+</span>
                     </div>
                     {selectedBloodType === 'AB+' && (
                       <div className="absolute top-2 right-2">
@@ -113,7 +113,7 @@ function Step3Donate() {
                     onClick={() => setSelectedBloodType('AB-')}
                   >
                     <div className="flex items-center justify-center">
-                      <span className="text-xl font-bold text-[#1b0e10] dark:text-white">AB-</span>
+                      <span className="text-xl font-bold text-gray-900 dark:text-white">AB-</span>
                     </div>
                     {selectedBloodType === 'AB-' && (
                       <div className="absolute top-2 right-2">
@@ -130,7 +130,7 @@ function Step3Donate() {
                     onClick={() => setSelectedBloodType('O+')}
                   >
                     <div className="flex items-center justify-center">
-                      <span className="text-xl font-bold text-[#1b0e10] dark:text-white">O+</span>
+                      <span className="text-xl font-bold text-gray-900 dark:text-white">O+</span>
                     </div>
                     {selectedBloodType === 'O+' && (
                       <div className="absolute top-2 right-2">
@@ -147,7 +147,7 @@ function Step3Donate() {
                     onClick={() => setSelectedBloodType('O-')}
                   >
                     <div className="flex items-center justify-center">
-                      <span className="text-xl font-bold text-[#1b0e10] dark:text-white">O-</span>
+                      <span className="text-xl font-bold text-gray-900 dark:text-white">O-</span>
                     </div>
                     {selectedBloodType === 'O-' && (
                       <div className="absolute top-2 right-2">
@@ -166,7 +166,7 @@ function Step3Donate() {
                   <p className="text-gray-500 dark:text-gray-400">{t('donateNow.step3.urgencyDescription')}</p>
                 </div>
               </div>
-              <div className="flex items-center justify-center gap-2 text-xs text-[#974e5a] dark:text-[#c4a4a9] uppercase tracking-widest">
+              <div className="flex items-center justify-center gap-2 text-xs text-gray-600 dark:text-gray-400 uppercase tracking-widest">
                 <span className="material-symbols-outlined text-sm">verified_user</span>
                 <span>{t('donateNow.step3.privacyNote')}</span>
               </div>

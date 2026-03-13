@@ -331,5 +331,10 @@
         "urgencyDescription": "Você será avisado quando houver falta crítica do seu tipo sanguíneo perto de você.",
         "privacyNote": "Seus dados estão protegidos pelos altos padrões da LGPD e apenas serão compartilhados com instituições de saúde autorizadas."
       }
+    },
+    "notFound": {
+      "title": "Ops... Você se perdeu?",
+      "description": "A página que você procura não existe. Porque não tenta voltar para a ",
+      "homeLink": "página inicial"
     }
   }

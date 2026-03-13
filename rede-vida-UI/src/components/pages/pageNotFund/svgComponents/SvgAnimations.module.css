@@ -1,0 +1,66 @@
+/* SVG Animations for 404 Page */
+.svg-path-1 {
+  stroke-dasharray: 940px;
+  stroke-dashoffset: -940px;
+  animation: drawLine1 2.5s ease-in-out 1s forwards, flicker1 4s linear 5s infinite;
+}
+
+.svg-path-2 {
+  stroke-dasharray: 735px;
+  stroke-dashoffset: -735px;
+  animation: drawLine2 2.5s ease-in-out 0.5s forwards, flicker2 4s linear 4.5s infinite;
+}
+
+.svg-path-3 {
+  stroke-dasharray: 940px;
+  stroke-dashoffset: -940px;
+  animation: drawLine3 2.5s ease-in-out 0s forwards, flicker3 4s linear 4s infinite;
+}
+
+@keyframes drawLine1 {
+  0%  { stroke-dashoffset: -940px; }
+  100%{ stroke-dashoffset: 0px; }
+}
+
+@keyframes drawLine2 {
+  0%  { stroke-dashoffset: -735px; }
+  100%{ stroke-dashoffset: 0px; }
+}
+
+@keyframes drawLine3 {
+  0%  { stroke-dashoffset: -940px; }
+  100%{ stroke-dashoffset: 0px; }
+}
+
+@keyframes flicker1{
+  0%  { stroke: rgb(255, 138, 122); }
+  1%  { stroke: transparent; }
+  3%  { stroke: transparent; }
+  4%  { stroke: rgb(255, 138, 122); }
+  6%  { stroke: rgb(255, 138, 122); }
+  7%  { stroke: transparent; }
+  13% { stroke: transparent; }
+  14% { stroke: rgb(255, 138, 122); }
+  100%{ stroke: rgb(255, 138, 122); }
+}
+
+@keyframes flicker2{
+  0%  { stroke: rgb(255, 138, 122); }
+  50% { stroke: rgb(255, 138, 122); }
+  51% { stroke: transparent; }
+  61% { stroke: transparent; }
+  62% { stroke: rgb(255, 138, 122); }
+  100%{ stroke: rgb(255, 138, 122); }
+}
+
+@keyframes flicker3{
+  0%  { stroke: rgb(255, 138, 122); }
+  1%  { stroke: transparent; }
+  10% { stroke: transparent; }
+  11% { stroke: rgb(255, 138, 122); }
+  40% { stroke: rgb(255, 138, 122); }
+  41% { stroke: transparent; }
+  45% { stroke: transparent; }
+  46% { stroke: rgb(255, 138, 122); }
+  100%{ stroke: rgb(255, 138, 122); }
+}

@@ -39,7 +39,7 @@ const ProgressBarSection = ({ currentStep, totalSteps = 4, isCompleted = false }
           <div className="flex gap-6 justify-between items-end">
             <ScrollAnimation>
             <div>
-              <h3 className="text-[#1b0e10] dark:text-white text-2xl sm:text-3xl font-black leading-[1.1] tracking-tight mb-2">
+              <h3 className="text-gray-900 dark:text-white text-2xl sm:text-3xl font-black leading-[1.1] tracking-tight mb-2">
                 {getStepTitle()}
               </h3>
               <p className="text-gray-600 dark:text-gray-400 text-base md:text-lg font-normal leading-normal">

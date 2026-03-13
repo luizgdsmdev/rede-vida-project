@@ -14,39 +14,39 @@ function Step2Donate() {
                 <div className="md:col-span-2">
                   <label className="flex flex-col gap-2">
                     <span className="text-gray-900 dark:text-white text-base font-medium">{t('donateNow.step2.fullName')}</span>
-                    <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-[#3d2a2d] border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(249,115,22,0.1)] transition-all w-full">
-                      <input className="flex-1 bg-transparent border-none text-[#1b0e10] dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.fullNamePlaceholder')} type="text"/>
+                    <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-background-dark-2 border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(255,138,122,0.1)] transition-all w-full">
+                      <input className="flex-1 bg-transparent border-none text-gray-900 dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.fullNamePlaceholder')} type="text"/>
                     </div>
                   </label>
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className="text-gray-900 dark:text-white text-base font-medium">{t('donateNow.step2.email')}</label>
-                  <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-[#3d2a2d] border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(249,115,22,0.1)] transition-all w-full">
+                  <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-background-dark-2 border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(255,138,122,0.1)] transition-all w-full">
                     <div className="text-primary flex items-center justify-center pl-4 flex-shrink-0">
                       <span className="material-symbols-outlined">mail</span>
                     </div>
-                    <input className="flex-1 bg-transparent border-none text-[#1b0e10] dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-3 min-w-0" placeholder={t('donateNow.step2.emailPlaceholder')} type="email"/>
+                    <input className="flex-1 bg-transparent border-none text-gray-900 dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-3 min-w-0" placeholder={t('donateNow.step2.emailPlaceholder')} type="email"/>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className="text-gray-900 dark:text-white text-base font-medium">{t('donateNow.step2.phone')}</label>
-                  <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-[#3d2a2d] border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(249,115,22,0.1)] transition-all w-full">
+                  <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-background-dark-2 border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(255,138,122,0.1)] transition-all w-full">
                     <div className="text-primary flex items-center justify-center pl-4 flex-shrink-0">
                       <span className="material-symbols-outlined">call</span>
                     </div>
-                    <input className="flex-1 bg-transparent border-none text-[#1b0e10] dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-3 min-w-0" placeholder={t('donateNow.step2.phonePlaceholder')} type="tel"/>
+                    <input className="flex-1 bg-transparent border-none text-gray-900 dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-3 min-w-0" placeholder={t('donateNow.step2.phonePlaceholder')} type="tel"/>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className="text-gray-900 dark:text-white text-base font-medium">{t('donateNow.step2.cpf')}</label>
-                  <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-[#3d2a2d] border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(249,115,22,0.1)] transition-all w-full">
-                    <input className="flex-1 bg-transparent border-none text-[#1b0e10] dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.cpfPlaceholder')} type="text"/>
+                  <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-background-dark-2 border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(255,138,122,0.1)] transition-all w-full">
+                    <input className="flex-1 bg-transparent border-none text-gray-900 dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.cpfPlaceholder')} type="text"/>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className="text-gray-900 dark:text-white text-base font-medium">{t('donateNow.step2.birthDate')}</label>
-                  <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-[#3d2a2d] border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(249,115,22,0.1)] transition-all w-full">
-                    <input className="flex-1 bg-transparent border-none text-[#1b0e10] dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.birthDatePlaceholder')} type="date"/>
+                  <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-background-dark-2 border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(255,138,122,0.1)] transition-all w-full">
+                    <input className="flex-1 bg-transparent border-none text-gray-900 dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.birthDatePlaceholder')} type="date"/>
                   </div>
                 </div>
               </div>
@@ -57,28 +57,28 @@ function Step2Donate() {
                 <div className="md:col-span-1">
                   <label className="flex flex-col gap-2">
                     <span className="text-gray-900 dark:text-white text-base font-medium">{t('donateNow.step2.cep')}</span>
-                    <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-[#3d2a2d] border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(249,115,22,0.1)] transition-all w-full">
-                      <input className="flex-1 bg-transparent border-none text-[#1b0e10] dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.cepPlaceholder')} type="text"/>
+                    <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-background-dark-2 border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(255,138,122,0.1)] transition-all w-full">
+                      <input className="flex-1 bg-transparent border-none text-gray-900 dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.cepPlaceholder')} type="text"/>
                     </div>
                   </label>
                 </div>
                 <div className="md:col-span-1">
                   <label className="flex flex-col gap-2">
                     <span className="text-gray-900 dark:text-white text-base font-medium">{t('donateNow.step2.city')}</span>
-                    <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-[#3d2a2d] border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(249,115,22,0.1)] transition-all w-full">
-                      <input className="flex-1 bg-transparent border-none text-[#1b0e10] dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.cityPlaceholder')} type="text"/>
+                    <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-background-dark-2 border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(255,138,122,0.1)] transition-all w-full">
+                      <input className="flex-1 bg-transparent border-none text-gray-900 dark:text-white focus:ring-0 focus:outline-none placeholder:text-gray-500 text-base px-4 min-w-0" placeholder={t('donateNow.step2.cityPlaceholder')} type="text"/>
                     </div>
                   </label>
                 </div>
                 <div className="md:col-span-1">
                   <label className="flex flex-col gap-2">
                     <span className="text-gray-900 dark:text-white text-base font-medium">{t('donateNow.step2.state')}</span>
-                    <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-[#3d2a2d] border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(249,115,22,0.1)] transition-all w-full">
-                      <select className="flex-1 bg-transparent border-none text-[#1b0e10] dark:text-white focus:ring-0 focus:outline-none text-base px-4 min-w-0 appearance-none">
-                        <option value="" className="bg-white dark:bg-background-dark text-[#1b0e10] dark:text-white">{t('donateNow.step2.stateSelect')}</option>
-                        <option value="SP" className="bg-white dark:bg-background-dark text-[#1b0e10] dark:text-white">{t('donateNow.step2.stateSp')}</option>
-                        <option value="RJ" className="bg-white dark:bg-background-dark text-[#1b0e10] dark:text-white">{t('donateNow.step2.stateRj')}</option>
-                        <option value="MG" className="bg-white dark:bg-background-dark text-[#1b0e10] dark:text-white">{t('donateNow.step2.stateMg')}</option>
+                    <div className="flex items-stretch rounded-lg h-14 bg-white dark:bg-background-dark-2 border-2 border-transparent focus-within:border-[3px] focus-within:border-primary focus-within:shadow-[0_0_0_1px_rgba(255,138,122,0.1)] transition-all w-full">
+                      <select className="flex-1 bg-transparent border-none text-gray-900 dark:text-white focus:ring-0 focus:outline-none text-base px-4 min-w-0 appearance-none">
+                        <option value="" className="bg-white dark:bg-background-dark text-gray-900 dark:text-white">{t('donateNow.step2.stateSelect')}</option>
+                        <option value="SP" className="bg-white dark:bg-background-dark text-gray-900 dark:text-white">{t('donateNow.step2.stateSp')}</option>
+                        <option value="RJ" className="bg-white dark:bg-background-dark text-gray-900 dark:text-white">{t('donateNow.step2.stateRj')}</option>
+                        <option value="MG" className="bg-white dark:bg-background-dark text-gray-900 dark:text-white">{t('donateNow.step2.stateMg')}</option>
                       </select>
                     </div>
                   </label>

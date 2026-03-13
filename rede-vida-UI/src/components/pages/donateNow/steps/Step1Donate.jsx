@@ -21,7 +21,7 @@ function Step1Donate() {
           <span className="material-symbols-outlined text-3xl" style={{fontVariationSettings: 'FILL 1'}}>person</span>
         </div>
         <div className="flex flex-col gap-2">
-          <h3 className="text-xl font-bold text-[#1b0e10] dark:text-white mb-3">{t('donateNow.donor')}</h3>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{t('donateNow.donor')}</h3>
           <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">{t('donateNow.donorDescription')}</p>
         </div>
         {selectedRole === 'donor' && (
@@ -44,7 +44,7 @@ function Step1Donate() {
           <span className="material-symbols-outlined text-3xl" style={{fontVariationSettings: 'FILL 1'}}>business</span>
         </div>
         <div className="flex flex-col gap-2">
-          <h3 className="text-xl font-bold text-[#1b0e10] dark:text-white mb-3">{t('donateNow.institution')}</h3>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{t('donateNow.institution')}</h3>
           <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">{t('donateNow.institutionDescription')}</p>
         </div>
         {selectedRole === 'institution' && (

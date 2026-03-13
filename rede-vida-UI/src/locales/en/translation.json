@@ -331,5 +331,10 @@
       "urgencyDescription": "You will be notified when there is a critical shortage of your blood type near you.",
       "privacyNote": "Your data is protected by high standards of LGPD and will only be shared with authorized health institutions."
     }
-  }
+  },
+    "notFound": {
+      "title": "Ops... Did you get lost?",
+      "description": "The page you're looking for doesn't exist. Why not try going back to the ",
+      "homeLink": "home"
+    }
 }
