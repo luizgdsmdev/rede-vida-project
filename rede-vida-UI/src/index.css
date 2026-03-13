@@ -73,3 +73,22 @@ body, html, section, .bg-white, .dark\:bg-background-dark {
 .no-transition * {
     transition: none !important;
 }
+
+/* Custom classes for consistent styling */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.dark .glass-effect {
+    background: rgba(35, 17, 15, 0.6);
+}
+
+.rounded-card {
+    border-radius: 1rem;
+}
+
+.rounded-input {
+    border-radius: 0.5rem;
+}

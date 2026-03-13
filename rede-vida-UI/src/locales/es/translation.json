@@ -336,5 +336,32 @@
       "title": "Ops... ¿Te perdiste?",
       "description": "La página que buscas no existe. ¿Por qué no intentas volver a la ",
       "homeLink": "página inicial"
+    },
+    "login": {
+      "visualImageSection": {
+        "title": "Salvando vidas",
+        "subtitle": "Tu donación es el elo que mantiene la vida latiendo.",
+        "description": "Conectamos donantes con los centros de sangre más cercanos de forma rápida y segura. Descubre dónde tu ayuda es más necesaria ahora.",
+        "donors": "Donantes activos",
+        "lives": "Vidas impactadas",
+        "hospitals": "Hospitales socios"
+      },
+      "loginForm": {
+        "title": "Vida en Red",
+        "subtitle": "Doe vida, conecte corazones",
+        "welcome": "Bienvenido de nuevo",
+        "notMember": "¿Aún no eres miembro?",
+        "createAccount": "Crear una cuenta",
+        "email": "Correo electrónico",
+        "emailPlaceholder": "nombre@ejemplo.com",
+        "password": "Contraseña",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "passwordPlaceholder": "••••••••",
+        "login": "Iniciar sesión"
+      }
+    },
+    "theme": {
+      "switchToLight": "Cambiar a modo claro",
+      "switchToDark": "Cambiar a modo oscuro"
     }
 }

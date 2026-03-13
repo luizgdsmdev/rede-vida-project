@@ -336,5 +336,32 @@
       "title": "Ops... Did you get lost?",
       "description": "The page you're looking for doesn't exist. Why not try going back ",
       "homeLink": "home"
+    },
+    "login": {
+      "visualImageSection": {
+        "title": "Live Saving",
+        "subtitle": "Your donation is the bond that keeps life beating.",
+        "description": "Connect donors with the nearest blood centers quickly and safely. Discover where your help is most needed now.",
+        "donors": "Active donors",
+        "lives": "Lives impacted",
+        "hospitals": "Partner hospitals"
+      },
+      "loginForm": {
+        "title": "Life in Network",
+        "subtitle": "Give life, connect hearts",
+        "welcome": "Welcome back",
+        "notMember": "Not a member yet?",
+        "createAccount": "Create an account",
+        "email": "Email",
+        "emailPlaceholder": "name@example.com",
+        "password": "Password",
+        "forgotPassword": "Forgot password?",
+        "passwordPlaceholder": "••••••••",
+        "login": "Login"
+      }
+    },
+    "theme": {
+      "switchToLight": "Switch to light mode",
+      "switchToDark": "Switch to dark mode"
     }
 }
