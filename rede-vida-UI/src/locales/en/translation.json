@@ -275,5 +275,53 @@
       "messagePlaceholder": "Write your message here...",
       "submitButton": "Send Message"
     }
+  },
+  "donateNow": {
+    "headline": "How do you want to use Vida em Rede?",
+    "subheadline": "Select the profile that best describes your intention on the platform to begin your journey.",
+    "continue": "Continue",
+    "step": "Step",
+    "of": "of",
+    "donor": "Donor",
+    "donorDescription": "Ideal for people who want to donate blood, find nearby blood centers and manage their donation history in a simple and fast way.",
+    "institution": "Institution",
+    "institutionDescription": "Ideal for blood banks, hospitals and collection units that need to manage inventories, call donors and optimize the flow of service.",
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Login",
+    "progressBar": {
+      "step1": "Profile",
+      "step2": "Data",
+      "step3": "Health",
+      "step4": "Finish",
+      "step1Description": "Step 1 of 3: Choose your user profile",
+      "step2Description": "Step 2 of 3: Identification and Location",
+      "step3Description": "Step 3 of 3: Medical history and restrictions",
+      "completed": "completed"
+    },
+    "step2": {
+      "title": "Personal Data",
+      "subtitle": "Fill in your personal information to continue with the donation process.",
+      "fullName": "Name",
+      "fullNamePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "youremail@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "Your phone number",
+      "cpf": "CPF",
+      "cpfPlaceholder": "Your CPF number",
+      "birthDate": "Birth date",
+      "birthDatePlaceholder": "Your birth date",
+      "address": "Address",
+      "addressPlaceholder": "Your complete address",
+      "city": "City",
+      "cep": "Postal Code",
+      "cepPlaceholder": "Your postal code",
+      "cityPlaceholder": "Your city",
+      "state": "State",
+      "stateSelect": "Select your state",
+      "stateSp": "São Paulo",
+      "stateRj": "Rio de Janeiro",
+      "stateMg": "Minas Gerais"
+    }
   }
 }

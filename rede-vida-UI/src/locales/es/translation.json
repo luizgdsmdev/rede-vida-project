@@ -275,5 +275,53 @@
       "messagePlaceholder": "Escriba su mensaje aquí...",
       "submitButton": "Enviar Mensaje"
     }
+  },
+  "donateNow": {
+    "headline": "¿Cómo quieres usar Vida en Red?",
+    "subheadline": "Selecciona el perfil que mejor describa tu intención en la plataforma para comenzar tu viaje.",
+    "continue": "Continuar",
+    "step": "Etapa",
+    "of": "de",
+    "donor": "Doador",
+    "donorDescription": "Ideal para pessoas físicas que desejam doar sangue, encontrar hemocentros próximos e gerenciar seu histórico de doações de forma simples e rápida.",
+    "institution": "Instituição",
+    "institutionDescription": "Ideal para bancos de sangue, hospitais e unidades de coleta que precisam gerenciar estoques, convocar doadores e otimizar o fluxo de atendimento.",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "login": "Iniciar sesión",
+    "progressBar": {
+      "step1": "Perfil",
+      "step2": "Datos",
+      "step3": "Salud",
+      "step4": "Finalizar",
+      "step1Description": "Etapa 1 de 3: Elige tu perfil de usuario",
+      "step2Description": "Etapa 2 de 3: Identificación y Ubicación",
+      "step3Description": "Etapa 3 de 3: Historial médico y restricciones",
+      "completed": "completo"
+    },
+    "step2": {
+      "title": "Datos Personales",
+      "subtitle": "Completa tu información personal para continuar con el proceso de donación.",
+      "fullName": "Nombre ",
+      "fullNamePlaceholder": "Tu nombre completo",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "sucorreo@ejemplo.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "Tu número de teléfono",
+      "cpf": "CPF",
+      "cpfPlaceholder": "Tu número de CPF",
+      "birthDate": "Fecha de nacimiento",
+      "birthDatePlaceholder": "Tu fecha de nacimiento",
+      "address": "Dirección",
+      "addressPlaceholder": "Tu dirección completa",
+      "city": "Ciudad",
+      "cep": "Código Postal",
+      "cepPlaceholder": "Tu código postal",
+      "cityPlaceholder": "Tu ciudad",
+      "state": "Estado",
+      "stateSelect": "Selecciona tu estado",
+      "stateSp": "São Paulo",
+      "stateRj": "Rio de Janeiro",
+      "stateMg": "Minas Gerais"
+    }
   }
 }

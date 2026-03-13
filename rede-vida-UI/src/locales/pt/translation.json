@@ -275,5 +275,53 @@
         "messagePlaceholder": "Escreva sua mensagem aqui...",
         "submitButton": "Enviar Mensagem"
       }
+    },
+    "donateNow": {
+      "headline": "Como você deseja usar o Vida em Rede?",
+      "subheadline": "Selecione o perfil que melhor descreve sua intenção na plataforma para começarmos sua jornada.",
+      "continue": "Continuar",
+      "step": "Etapa",
+      "of": "de",
+      "donor": "Doador",
+      "donorDescription": "Ideal para pessoas físicas que desejam doar sangue, encontrar hemocentros próximos e gerenciar seu histórico de doações de forma simples e rápida.",
+      "institution": "Instituição",
+      "institutionDescription": "Ideal para bancos de sangue, hospitais e unidades de coleta que precisam gerenciar estoques, convocar doadores e otimizar o fluxo de atendimento.",
+      "alreadyHaveAccount": "Já possui uma conta?",
+      "login": "Entrar",
+      "progressBar": {
+        "step1": "Perfil",
+        "step2": "Dados",
+        "step3": "Saúde",
+        "step4": "Finalizar",
+        "step1Description": "Etapa 1 de 3: Escolha seu perfil de usuário",
+        "step2Description": "Etapa 2 de 3: Identificação e Localização",
+        "step3Description": "Etapa 3 de 3: Histórico médico e restrições",
+        "completed": "completo"
+      },
+      "step2": {
+        "title": "Dados Pessoais",
+        "subtitle": "Preencha suas informações pessoais para continuar com o processo de doação.",
+        "fullName": "Nome",
+        "fullNamePlaceholder": "Seu nome completo",
+        "email": "E-mail",
+        "emailPlaceholder": "seuemail@exemplo.com",
+        "phone": "Telefone",
+        "phonePlaceholder": "Seu número de telefone",
+        "cpf": "CPF",
+        "cpfPlaceholder": "Seu número de CPF",
+        "birthDate": "Data de nascimento",
+        "birthDatePlaceholder": "Sua data de nascimento",
+        "address": "Endereço",
+        "addressPlaceholder": "Seu endereço completo",
+        "city": "Cidade",
+        "cep": "Código Postal",
+        "cepPlaceholder": "Seu código postal",
+        "cityPlaceholder": "Sua cidade",
+        "state": "Estado",
+        "stateSelect": "Selecione seu estado",
+        "stateSp": "São Paulo",
+        "stateRj": "Rio de Janeiro",
+        "stateMg": "Minas Gerais"
+      }
     }
   }
