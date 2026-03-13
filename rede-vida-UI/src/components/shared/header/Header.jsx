@@ -1,10 +1,16 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Logo from "../header/logo/Logo";
 import Navigation from "../header/navigation/Navigation";
 import MenuButtom from "../header/menuButtom/MenuButtom";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   const toggleMenu = useCallback(() => {
     setIsMenuOpen(prev => !prev);
