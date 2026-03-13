@@ -322,6 +322,14 @@
       "stateSp": "São Paulo",
       "stateRj": "Rio de Janeiro",
       "stateMg": "Minas Gerais"
+    },
+    "step3": {
+      "title": "Health",
+      "subtitle": "Almost there! We need to know your blood type to connect you with the donations needed in your area.",
+      "bloodTypeLabel": "Blood type",
+      "urgencyLabel": "I want to receive urgent notifications",
+      "urgencyDescription": "You will be notified when there is a critical shortage of your blood type near you.",
+      "privacyNote": "Your data is protected by high standards of LGPD and will only be shared with authorized health institutions."
     }
   }
 }

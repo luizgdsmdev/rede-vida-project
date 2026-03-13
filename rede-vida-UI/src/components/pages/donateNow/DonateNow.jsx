@@ -4,6 +4,7 @@ import RoleSelectionCards from './steps/Step1Donate'
 import SingleButton from './singleButton/SingleButton'
 import ProgressBarSection from './ProgressBarSection/ProgressBarSection'
 import Step2Donate from './steps/Step2Donate'
+import Step3Donate from './steps/Step3Donate'
 
 const Step1 = () => (
   <div>
@@ -17,6 +18,10 @@ const Step2 = () => (
   <Step2Donate />
 )
 
+const Step3 = () => (
+  <Step3Donate />
+)
+
 function DonateNow() {
   const [currentStep, setCurrentStep] = useState(1)
   const [isCompleted, setIsCompleted] = useState(false)
@@ -27,6 +32,8 @@ function DonateNow() {
         return <Step1 />
       case 2:
         return <Step2 />
+      case 3:
+        return <Step3 />
       default:
         return <Step1 />
     }
