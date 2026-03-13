@@ -56,7 +56,7 @@
       "mapMode": "Interactive Map Mode"
     },
     "informationCards": {
-      "title": "Prepare Your Donation",
+      "title": "Prepare for Your Donation",
       "subtitle": "Everything you need to know to perform this act of love safely and confidently.",
       "requirements": {
         "title": "Requirements",
@@ -102,8 +102,8 @@
   },
   "about": {
     "hero": {
-      "title": "Our Mission is to Save Lives",
-      "subtitle": "Connecting donors with hematology centers to ensure no one waits for hope."
+      "title": "Our Mission Is to Save Lives",
+      "subtitle": "Connecting donors with hematology centers to ensure no one has to wait for hope."
     },
     "history": {
       "title": "Our History and Purpose",
@@ -122,7 +122,7 @@
       },
       "innovation": {
         "title": "Innovation",
-        "description": "We use cutting-edge technology to predict demands and facilitate intelligent donation scheduling."
+        "description": "We use cutting-edge technology to predict demand and facilitate intelligent donation scheduling."
       }
     },
     "howtWorks": {
@@ -131,7 +131,7 @@
       "step2": "Find a Center",
       "step3": "Schedule Your Donation",
       "step4": "Save Lives",
-      "button": "I Want to Be a Donor Now"
+      "button": "I Want to Become a Donor Now"
     }
   },
   "requirements": {
@@ -149,11 +149,11 @@
       },
       "weight": {
         "title": "Weight",
-        "description": "Have a minimum weight of 50kg to ensure safety."
+        "description": "Have a minimum weight of 50 kg to ensure safety."
       },
       "health": {
         "title": "Health",
-        "description": "Feel well and in good general health."
+        "description": "Feel well and be in good general health."
       },
       "document": {
         "title": "Document",
@@ -162,68 +162,68 @@
     },
     "impediments": {
       "title": "Impediments to Donation",
-      "description": "Know the temporary and permanent impediments for blood donation",
+      "description": "Learn about the temporary and permanent impediments to blood donation.",
       "temporariesTitle": "Temporary Impediments",
       "temporariesIcon": "schedule",
       "temporaries": {
-        "gripeResfriado": "Gripe/Resfriado",
+        "gripeResfriado": "Flu/Cold",
         "gripeResfriadoDescription": "Wait 7 days after the end of symptoms.",
-        "gravidez": "Gravidez",
-        "gravidezDescription": "90 days after normal birth and 180 days after cesarean section.",
-        "tatuagem": "Tatuagem",
-        "tatuagemDescription": "Wait 12 months after the realization.",
-        "ingestaoAlcoolica": "Ingestão Alcoólica",
+        "gravidez": "Pregnancy",
+        "gravidezDescription": "90 days after a normal birth and 180 days after a cesarean section.",
+        "tatuagem": "Tattoo",
+        "tatuagemDescription": "Wait 12 months after getting it.",
+        "ingestaoAlcoolica": "Alcohol Consumption",
         "ingestaoAlcoolicaDescription": "Wait 12 hours after consumption."
       },
       "definitivesTitle": "Permanent Impediments",
       "definitivesIcon": "block",
       "definitives": {
-        "hepatite": "Hepatite",
+        "hepatite": "Hepatitis",
         "hepatiteDescription": "People with a history of hepatitis B or C cannot donate.",
         "diseases": "Severe Diseases",
-        "diseasesDescription": "Severe diseases such as HIV, hepatitis B or C, cancer, among others.",
-        "cardiopatia": "Cardiopatia",
+        "diseasesDescription": "Serious diseases such as HIV, hepatitis B or C, cancer, among others.",
+        "cardiopatia": "Heart Disease",
         "cardiopatiaDescription": "Severe heart or lung diseases.",
         "drogas": "Drugs",
         "drogasDescription": "Use of illegal injectable drugs."
       }
     },
     "preparation": {
-        "title": "Preparation for Donation",
-        "description": "Follow these steps to ensure a safe and comfortable donation experience",
-        "hydration": {
-          "title": "Hydration",
-          "description": "Drink plenty of water in the 24 hours before donation"
-        },
-        "nutrition": {
-          "title": "Nutrition",
-          "description": "Eat a good meal and avoid fatty foods before donation"
-        },
-        "alcohol": {
-          "title": "Alcohol",
-          "description": "Avoid alcohol consumption before donation"
-        },
-        "noFasting": {
-          "title": "No Fasting",
-          "description": "Eat normally, avoiding fasting"
-        },
-        "sleep": {
-          "title": "Good Sleep",
-          "description": "Get at least 6 hours of sleep the night before"
-        },
-        "rest": {
-          "title": "Rest",
-          "description": "Come well rested and avoid intense physical activity before donation"
-        },
-        "avoidFats": {
-          "title": "Avoid Fats",
-          "description": "Avoid fatty foods 3 hours before donation"
-        },
-        "medications": {
-          "title": "Medications",
-          "description": "Inform the staff about any medication you are taking"
-        }
+      "title": "Preparation for Donation",
+      "description": "Follow these steps to ensure a safe and comfortable donation experience.",
+      "hydration": {
+        "title": "Hydration",
+        "description": "Drink plenty of water in the 24 hours before donation."
       },
+      "nutrition": {
+        "title": "Nutrition",
+        "description": "Eat a good meal and avoid fatty foods before donation."
+      },
+      "alcohol": {
+        "title": "Alcohol",
+        "description": "Avoid alcohol consumption before donation."
+      },
+      "noFasting": {
+        "title": "No Fasting",
+        "description": "Eat normally and avoid fasting."
+      },
+      "sleep": {
+        "title": "Good Sleep",
+        "description": "Get at least 6 hours of sleep the night before."
+      },
+      "rest": {
+        "title": "Rest",
+        "description": "Arrive well rested and avoid intense physical activity before donation."
+      },
+      "avoidFats": {
+        "title": "Avoid Fats",
+        "description": "Avoid fatty foods 3 hours before donation."
+      },
+      "medications": {
+        "title": "Medications",
+        "description": "Inform the staff about any medication you are taking."
+      }
+    },
     "cta": {
       "title": "Ready to Donate?",
       "description": "There are many blood centers spread throughout the city. Choose the nearest one and schedule your appointment online.",
@@ -233,20 +233,20 @@
   },
   "location": {
     "hero": {
-      "title": "Hemocenters and Collection Points",
-      "description": "Find the nearest location to donate and save lives. Filter by type of unit or location."
+      "title": "Blood Centers and Collection Points",
+      "description": "Find the nearest place to donate and save lives. Filter by type of unit or location."
     },
     "filters": {
       "all": "All",
       "fixed": "Fixed",
       "mobile": "Mobile",
-      "hemocentroCentral": "Hemocentro Central",
+      "hemocentroCentral": "Central Blood Center",
       "mobileUnit": "Mobile Unit",
       "bloodCenter": "Blood Center",
       "open": "Open",
       "closed": "Closed",
       "schedule": "Schedule",
-      "hemocentroCentralHours": "Attention until 17:30",
+      "hemocentroCentralHours": "Open until 17:30",
       "mobileUnitReturn": "Returns tomorrow at 08:00",
       "hemocentroCentralAddress": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP"
     },
@@ -259,7 +259,7 @@
       "ctaButton": "Start Conversation",
       "card": {
         "title": "Human Support",
-        "subtitle": "Response by email within 24h"
+        "subtitle": "Response by email within 24 hours"
       }
     },
     "form": {
@@ -283,9 +283,9 @@
     "step": "Step",
     "of": "of",
     "donor": "Donor",
-    "donorDescription": "Ideal for people who want to donate blood, find nearby blood centers and manage their donation history in a simple and fast way.",
+    "donorDescription": "Ideal for people who want to donate blood, find nearby blood centers, and manage their donation history in a simple and fast way.",
     "institution": "Institution",
-    "institutionDescription": "Ideal for blood banks, hospitals and collection units that need to manage inventories, call donors and optimize the flow of service.",
+    "institutionDescription": "Ideal for blood banks, hospitals, and collection units that need to manage inventories, call donors, and optimize service flow.",
     "alreadyHaveAccount": "Already have an account?",
     "login": "Login",
     "progressBar": {
@@ -301,7 +301,7 @@
     "step2": {
       "title": "Personal Data",
       "subtitle": "Fill in your personal information to continue with the donation process.",
-      "fullName": "Name",
+      "fullName": "Full Name",
       "fullNamePlaceholder": "Your full name",
       "email": "Email",
       "emailPlaceholder": "youremail@example.com",
@@ -309,7 +309,7 @@
       "phonePlaceholder": "Your phone number",
       "cpf": "CPF",
       "cpfPlaceholder": "Your CPF number",
-      "birthDate": "Birth date",
+      "birthDate": "Birth Date",
       "birthDatePlaceholder": "Your birth date",
       "address": "Address",
       "addressPlaceholder": "Your complete address",
@@ -326,42 +326,42 @@
     "step3": {
       "title": "Health",
       "subtitle": "Almost there! We need to know your blood type to connect you with the donations needed in your area.",
-      "bloodTypeLabel": "Blood type",
+      "bloodTypeLabel": "Blood Type",
       "urgencyLabel": "I want to receive urgent notifications",
       "urgencyDescription": "You will be notified when there is a critical shortage of your blood type near you.",
-      "privacyNote": "Your data is protected by high standards of LGPD and will only be shared with authorized health institutions."
+      "privacyNote": "Your data is protected by high LGPD standards and will only be shared with authorized health institutions."
     }
   },
-    "notFound": {
-      "title": "Ops... Did you get lost?",
-      "description": "The page you're looking for doesn't exist. Why not try going back ",
-      "homeLink": "home"
+  "notFound": {
+    "title": "Oops... Did you get lost?",
+    "description": "The page you're looking for doesn't exist. Why not try going back ",
+    "homeLink": "home"
+  },
+  "login": {
+    "visualImageSection": {
+      "title": "Saving Lives",
+      "subtitle": "Your donation is the bond that keeps life beating.",
+      "description": "Connect donors with the nearest blood centers quickly and safely. Discover where your help is needed most right now.",
+      "donors": "Active donors",
+      "lives": "Lives impacted",
+      "hospitals": "Partner hospitals"
     },
-    "login": {
-      "visualImageSection": {
-        "title": "Live Saving",
-        "subtitle": "Your donation is the bond that keeps life beating.",
-        "description": "Connect donors with the nearest blood centers quickly and safely. Discover where your help is most needed now.",
-        "donors": "Active donors",
-        "lives": "Lives impacted",
-        "hospitals": "Partner hospitals"
-      },
-      "loginForm": {
-        "title": "Life in Network",
-        "subtitle": "Give life, connect hearts",
-        "welcome": "Welcome back",
-        "notMember": "Not a member yet?",
-        "createAccount": "Create an account",
-        "email": "Email",
-        "emailPlaceholder": "name@example.com",
-        "password": "Password",
-        "forgotPassword": "Forgot password?",
-        "passwordPlaceholder": "••••••••",
-        "login": "Login"
-      }
-    },
-    "theme": {
-      "switchToLight": "Switch to light mode",
-      "switchToDark": "Switch to dark mode"
+    "loginForm": {
+      "title": "Vida em Rede",
+      "subtitle": "Give life, connect hearts",
+      "welcome": "Welcome back",
+      "notMember": "Not a member yet?",
+      "createAccount": "Create an account",
+      "email": "Email",
+      "emailPlaceholder": "name@example.com",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "passwordPlaceholder": "••••••••",
+      "login": "Login"
     }
+  },
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  }
 }

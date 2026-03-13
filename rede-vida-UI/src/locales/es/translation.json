@@ -1,7 +1,7 @@
 {
   "hero_title": "Tu donación es el latido de muchas vidas",
-  "donate_now": "Dona Ahora",
-  "become_donor": "Quiero Ser Donante Ahora",
+  "donate_now": "Dona ahora",
+  "become_donor": "Quiero ser donante ahora",
   "navigation": {
     "about": "Acerca de",
     "locations": "Ubicaciones",
@@ -13,8 +13,8 @@
       "title_1": "Tu",
       "title_2": "donación",
       "title_3": "es el latido de muchas vidas",
-      "tag": "Iniciativa Solidaria",
-      "inputPlaceholder": "Ingrese su ciudad o código postal",
+      "tag": "Iniciativa solidaria",
+      "inputPlaceholder": "Ingresa tu ciudad o código postal",
       "searchButton": "Buscar",
       "description": "Conectamos donantes con los centros de sangre más cercanos de forma rápida y segura. Descubre dónde tu ayuda es más necesaria ahora.",
       "inputPlaceholderLabel": "¿Dónde quieres donar?",
@@ -43,36 +43,36 @@
     },
     "interactiveSearch": {
       "title": "Encuentra un centro de sangre",
-      "description": "Vea los lugares de recolección más cercanos a usted y agende su visita.",
+      "description": "Consulta los lugares de donación más cercanos y agenda tu visita.",
       "searchIcon": "search",
       "searchPlaceholder": "Filtrar por nombre o barrio...",
       "hemocentroTitle": "Centro de Sangre Central SP",
       "open": "Abierto",
       "address": "R. Enéas de Carvalho Aguiar, 155 - Cerqueira César",
-      "distance": "0.8 km de distancia",
+      "distance": "A 0.8 km",
       "schedule": "Agendar",
       "closed": "Cerrado",
       "hemocentroTitleMap": "Central SP",
-      "mapMode": "Modo mapa interactivo"
+      "mapMode": "Modo de mapa interactivo"
     },
     "informationCards": {
       "title": "Prepara tu donación",
       "subtitle": "Todo lo que necesitas saber para realizar este acto de amor con seguridad y tranquilidad.",
       "requirements": {
         "title": "Requisitos",
-        "description": "Tener entre 16 y 69 años, pesar más de 50 kg y estar descansado. Consulta la lista completa de impedimentos temporales.",
-        "link": "Ver criterios completos",
+        "description": "Tener entre 16 y 69 años, pesar más de 50 kg y estar bien descansado. Consulta la lista completa de impedimentos temporales.",
+        "link": "Ver todos los criterios",
         "icon": "checklist"
       },
       "appointment": {
         "title": "Agendamiento",
-        "description": "Evite filas y aglomeraciones. Elija el mejor horario en el centro de sangre de su preferencia a través de nuestra plataforma integrada.",
+        "description": "Evita filas y aglomeraciones. Elige el mejor horario en el centro de sangre de tu preferencia a través de nuestra plataforma integrada.",
         "link": "Reservar horario ahora",
         "icon": "event_available"
       },
       "contact": {
         "title": "Contacto",
-        "description": "Si tiene alguna pregunta sobre el proceso de donación, puede contactarnos a través de los siguientes medios.",
+        "description": "Si tienes alguna duda sobre el proceso de donación, puedes contactarnos a través de los siguientes canales.",
         "link": "Contacto",
         "icon": "contact_page"
       }
@@ -82,7 +82,7 @@
     "title": "Vida en Red",
     "description": "Una plataforma dedicada a salvar vidas conectando corazones generosos con quienes más lo necesitan.",
     "navigation": "Navegación",
-    "home": "Página inicial",
+    "home": "Inicio",
     "about": "Sobre nosotros",
     "hemocenters": "Centros de sangre",
     "faq": "Preguntas frecuentes",
@@ -103,189 +103,189 @@
   "about": {
     "hero": {
       "title": "Nuestra misión es salvar vidas",
-      "subtitle": "Conectando donantes con centros de hematología para garantizar que nadie espere una esperanza."
+      "subtitle": "Conectamos donantes con centros de hematología para asegurar que nadie tenga que esperar por esperanza."
     },
     "history": {
-      "title": "Nuestra Historia y Propósito",
-      "description1": "Vida en Red nació de la necesidad urgente de modernizar la donación de sangre en Brasil. En un escenario donde las escaseces de sangre son recurrentes, nos dimos cuenta de que la tecnología podría ser el puente fundamental.",
-      "description2": "Actuamos como un facilitador digital entre quienes desean donar y las instituciones que necesitan suministros vitales. Nuestro enfoque es optimizar el flujo de donaciones a través de datos precisos, comunicación ágil y, sobre todo, empatía."
+      "title": "Nuestra historia y propósito",
+      "description1": "Vida en Red nació de la urgente necesidad de modernizar la donación de sangre en Brasil. En un escenario donde la escasez de sangre es recurrente, entendimos que la tecnología podría ser el puente fundamental.",
+      "description2": "Actuamos como un facilitador digital entre quienes desean donar y las instituciones que necesitan suministros vitales. Nuestro enfoque es optimizar el flujo de donaciones mediante datos precisos, comunicación ágil y, sobre todo, empatía."
     },
     "values": {
-      "title": "Nuestros Valores",
+      "title": "Nuestros valores",
       "transparency": {
         "title": "Transparencia",
         "description": "Procesos claros e información en tiempo real sobre los niveles de stock de sangre en cada unidad."
       },
       "humanity": {
         "title": "Humanidad",
-        "description": "Ponemos a las personas en el centro de todo, tratando a cada donante y receptor con el respeto y el cuidado que merecen."
+        "description": "Ponemos a las personas en el centro de todo, tratando a cada donante y receptor con el respeto y cuidado que merecen."
       },
       "innovation": {
         "title": "Innovación",
-        "description": "Utilizamos tecnología de punta para prever demandas y facilitar la programación inteligente de donaciones."
+        "description": "Utilizamos tecnología de vanguardia para prever demandas y facilitar la programación inteligente de donaciones."
       }
     },
     "howtWorks": {
-      "title": "Cómo Funciona",
-      "step1": "Crea Tu Perfil",
-      "step2": "Encuentra Un Centro",
-      "step3": "Agenda Tu Donación",
-      "step4": "Salva Vidas",
-      "button": "Quiero Ser Donante Ahora"
+      "title": "Cómo funciona",
+      "step1": "Crea tu perfil",
+      "step2": "Encuentra un centro",
+      "step3": "Agenda tu donación",
+      "step4": "Salva vidas",
+      "button": "Quiero ser donante ahora"
     }
   },
   "requirements": {
-      "hero": {
-        "title": "¿Quién Puede Donar Sangre?",
-        "description": "Tu donación puede salvar hasta cuatro vidas. Revisa los requisitos y prepárate para este acto de solidaridad que transforma el mundo.",
-        "button": "Agenda Mi Donación"
+    "hero": {
+      "title": "¿Quién puede donar sangre?",
+      "description": "Tu donación puede salvar hasta cuatro vidas. Revisa los requisitos y prepárate para este acto de solidaridad que transforma el mundo.",
+      "button": "Agendar mi donación"
+    },
+    "basicRequirements": {
+      "title": "Requisitos básicos",
+      "description": "Para ser donante, debes cumplir con estos criterios fundamentales:",
+      "age": {
+        "title": "Edad",
+        "description": "Tener entre 16 y 69 años (menores con autorización)."
       },
-      "basicRequirements": {
-        "title": "Requisitos Básicos",
-        "description": "Para ser donante, necesitas cumplir con estos criterios fundamentales:",
-        "age": {
-          "title": "Edad",
-          "description": "Estar entre 16 y 69 años (menores con autorización)."
-        },
-        "weight": {
-          "title": "Peso",
-          "description": "Tener un peso mínimo de 50kg para garantizar la seguridad."
-        },
-        "health": {
-          "title": "Salud",
-          "description": "Sentirse bien y en buenas condiciones generales de salud."
-        },
-        "document": {
-          "title": "Documento",
-          "description": "Presentar un documento oficial original con foto."
-        }
+      "weight": {
+        "title": "Peso",
+        "description": "Tener un peso mínimo de 50 kg para garantizar la seguridad."
       },
-      "impediments": {
-        "title": "Impedimentos para la Donación",
-        "description": "Conoce los impedimentos temporales y permanentes para la donación de sangre",
-        "temporariesTitle": "Impedimentos Temporales",
-        "temporariesIcon": "schedule",
-        "temporaries": {
-        "gripeResfriado": "Gripe/Resfriado",
-        "gripeResfriadoDescription": "Aguardar 7 dias después de que terminen los síntomas.",
-        "gravidez": "Gravidez",
-        "gravidezDescription": "90 dias após parto normal e 180 dias após cesariana.",
-        "tatuagem": "Tatuagem",
-        "tatuagemDescription": "Aguardar 12 meses após a realización.",
-        "ingestaoAlcoolica": "Ingestão Alcoólica",
-        "ingestaoAlcoolicaDescription": "Aguardar 12 horas após o consumo."
+      "health": {
+        "title": "Salud",
+        "description": "Sentirse bien y tener buena salud general."
       },
-      "definitivesTitle": "Impedimentos Definitivos",
+      "document": {
+        "title": "Documento",
+        "description": "Presentar un documento oficial original con foto."
+      }
+    },
+    "impediments": {
+      "title": "Impedimentos para la donación",
+      "description": "Conoce los impedimentos temporales y permanentes para donar sangre.",
+      "temporariesTitle": "Impedimentos temporales",
+      "temporariesIcon": "schedule",
+      "temporaries": {
+        "gripeResfriado": "Gripe o resfriado",
+        "gripeResfriadoDescription": "Esperar 7 días después de que finalicen los síntomas.",
+        "gravidez": "Embarazo",
+        "gravidezDescription": "90 días después de un parto normal y 180 días después de una cesárea.",
+        "tatuagem": "Tatuaje",
+        "tatuagemDescription": "Esperar 12 meses después de realizarlo.",
+        "ingestaoAlcoolica": "Consumo de alcohol",
+        "ingestaoAlcoolicaDescription": "Esperar 12 horas después del consumo."
+      },
+      "definitivesTitle": "Impedimentos permanentes",
       "definitivesIcon": "block",
       "definitives": {
-        "hepatite": "Hepatite",
-        "hepatiteDescription": "Personas con historial de hepatitis B o C no pueden donar.",
-        "diseases": "Enfermedades Graves",
-        "diseasesDescription": "Enfermedades graves como HIV, hepatitis B o C, cáncer, entre otras.",
+        "hepatite": "Hepatitis",
+        "hepatiteDescription": "Personas con antecedentes de hepatitis B o C no pueden donar.",
+        "diseases": "Enfermedades graves",
+        "diseasesDescription": "Enfermedades graves como VIH, hepatitis B o C, cáncer, entre otras.",
         "cardiopatia": "Cardiopatía",
-        "cardiopatiaDescription": "Enfermedades graves del corazón o pulmón.",
+        "cardiopatiaDescription": "Enfermedades graves del corazón o de los pulmones.",
         "drogas": "Drogas",
-        "drogasDescription": "Uso de drogas ilícitas."
+        "drogasDescription": "Uso de drogas ilícitas inyectables."
       }
+    },
+    "preparation": {
+      "title": "Preparación para la donación",
+      "description": "Sigue estos pasos para garantizar una experiencia de donación segura y cómoda.",
+      "hydration": {
+        "title": "Hidratación",
+        "description": "Bebe mucha agua durante las 24 horas previas a la donación."
       },
-      "preparation": {
-        "title": "Preparación para la Donación",
-        "description": "Sigue estos pasos para garantizar una experiencia de donación segura y cómoda",
-        "hydration": {
-          "title": "Hidratación",
-          "description": "Bebe mucha agua en las 24 horas antes de la donación"
-        },
-        "nutrition": {
-          "title": "Nutrición",
-          "description": "Come una buena comida y evita los alimentos grasos antes de la donación"
-        },
-        "alcohol": {
-          "title": "Alcohol",
-          "description": "Evita el consumo de alcohol antes de la donación"
-        },
-        "noFasting": {
-          "title": "Sin ayuno",
-          "description": "Alimentate normalmente, evitando estar en ayunas"
-        },
-        "sleep": {
-          "title": "Duerme bien",
-          "description": "Duerme por lo menos 6 horas la noche anterior"
-        },
-        "rest": {
-          "title": "Descanso",
-          "description": "Ven bien descansado y evita la actividad física intensa antes de la donación"
-        },
-        "avoidFats": {
-          "title": "Evitar grasas",
-          "description": "Evita los alimentos grasos 3 horas antes de la donación"
-        },
-        "medications": {
-          "title": "Medicamentos",
-          "description": "Informa al personal sobre cualquier medicamento que estés tomando"
-        }
+      "nutrition": {
+        "title": "Nutrición",
+        "description": "Come bien y evita alimentos grasos antes de la donación."
       },
-      "cta": {
-        "title": "¿Listo para Donar?",
-        "description": "Existen diversos hemocentros esparcidos por la ciudad. Elige el más cercano y agenda tu cita en línea.",
-        "findCenters": "Buscar Centros",
-        "faq": "Preguntas Frecuentes"
+      "alcohol": {
+        "title": "Alcohol",
+        "description": "Evita consumir alcohol antes de donar."
+      },
+      "noFasting": {
+        "title": "Sin ayuno",
+        "description": "Aliméntate normalmente y evita ayunar."
+      },
+      "sleep": {
+        "title": "Dormir bien",
+        "description": "Duerme al menos 6 horas la noche anterior."
+      },
+      "rest": {
+        "title": "Descanso",
+        "description": "Llega bien descansado y evita actividad física intensa antes de donar."
+      },
+      "avoidFats": {
+        "title": "Evitar grasas",
+        "description": "Evita alimentos grasos 3 horas antes de la donación."
+      },
+      "medications": {
+        "title": "Medicamentos",
+        "description": "Informa al personal sobre cualquier medicamento que estés tomando."
       }
+    },
+    "cta": {
+      "title": "¿Listo para donar?",
+      "description": "Hay varios centros de sangre en la ciudad. Elige el más cercano y agenda tu cita en línea.",
+      "findCenters": "Buscar centros",
+      "faq": "Preguntas frecuentes"
+    }
   },
   "location": {
     "hero": {
-      "title": "Hemocentros y Puntos de Colaboración",
+      "title": "Hemocentros y puntos de donación",
       "description": "Encuentra el lugar más cercano para donar y salvar vidas. Filtra por tipo de unidad o ubicación."
     },
     "filters": {
       "all": "Todos",
       "fixed": "Fijos",
       "mobile": "Móviles",
-      "hemocentroCentral": "Hemocentro Central",
-      "mobileUnit": "Unidad Móvil",
-      "bloodCenter": "Centro de Sangre",
+      "hemocentroCentral": "Hemocentro central",
+      "mobileUnit": "Unidad móvil",
+      "bloodCenter": "Centro de sangre",
       "open": "Abierto",
       "closed": "Cerrado",
       "schedule": "Agendar",
       "hemocentroCentralHours": "Atención hasta las 17:30",
-      "mobileUnitReturn": "Retorna mañana a las 08:00",
+      "mobileUnitReturn": "Regresa mañana a las 08:00",
       "hemocentroCentralAddress": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP"
     },
     "searchPlaceholder": "Buscar por ciudad o código postal"
   },
   "contact": {
     "hero": {
-      "title": "Hable con Nosotros",
-      "subtitle": "Estamos aquí para apoyar a donantes e instituciones en cada paso del viaje de donación. Haz tus preguntas a través de nuestro asistente o envíanos un correo electrónico.",
-      "ctaButton": "Iniciar Conversación",
+      "title": "Habla con nosotros",
+      "subtitle": "Estamos aquí para apoyar a donantes e instituciones en cada paso del proceso de donación. Haz tus preguntas a través de nuestro asistente o envíanos un correo electrónico.",
+      "ctaButton": "Iniciar conversación",
       "card": {
-        "title": "Atención Humana",
-        "subtitle": "Respuesta por correo electrónico en hasta 24h"
+        "title": "Atención humana",
+        "subtitle": "Respuesta por correo electrónico en hasta 24 horas"
       }
     },
     "form": {
-      "title": "Enviar un Mensaje",
-      "subtitle": "Llene el formulario a continuación y le responderemos lo antes posible.",
+      "title": "Enviar un mensaje",
+      "subtitle": "Completa el formulario a continuación y te responderemos lo antes posible.",
       "name": "Nombre",
-      "namePlaceholder": "Su nombre completo",
+      "namePlaceholder": "Tu nombre completo",
       "email": "Correo electrónico",
-      "emailPlaceholder": "sucorreo@ejemplo.com",
+      "emailPlaceholder": "tucorreo@ejemplo.com",
       "subject": "Asunto",
-      "subjectPlaceholder": "¿Cómo podemos ayudar?",
+      "subjectPlaceholder": "¿Cómo podemos ayudarte?",
       "message": "Mensaje",
-      "messagePlaceholder": "Escriba su mensaje aquí...",
-      "submitButton": "Enviar Mensaje"
+      "messagePlaceholder": "Escribe tu mensaje aquí...",
+      "submitButton": "Enviar mensaje"
     }
   },
   "donateNow": {
     "headline": "¿Cómo quieres usar Vida en Red?",
-    "subheadline": "Selecciona el perfil que mejor describa tu intención en la plataforma para comenzar tu viaje.",
+    "subheadline": "Selecciona el perfil que mejor describa tu intención en la plataforma para comenzar tu experiencia.",
     "continue": "Continuar",
-    "step": "Etapa",
+    "step": "Paso",
     "of": "de",
-    "donor": "Doador",
-    "donorDescription": "Ideal para pessoas físicas que desejam doar sangue, encontrar hemocentros próximos e gerenciar seu histórico de doações de forma simples e rápida.",
-    "institution": "Instituição",
-    "institutionDescription": "Ideal para bancos de sangue, hospitais e unidades de coleta que precisam gerenciar estoques, convocar doadores e otimizar o fluxo de atendimento.",
+    "donor": "Donante",
+    "donorDescription": "Ideal para personas que desean donar sangre, encontrar centros cercanos y gestionar su historial de donaciones de forma simple y rápida.",
+    "institution": "Institución",
+    "institutionDescription": "Ideal para bancos de sangre, hospitales y unidades de recolección que necesitan gestionar inventarios, convocar donantes y optimizar el flujo de atención.",
     "alreadyHaveAccount": "¿Ya tienes una cuenta?",
     "login": "Iniciar sesión",
     "progressBar": {
@@ -293,18 +293,18 @@
       "step2": "Datos",
       "step3": "Salud",
       "step4": "Finalizar",
-      "step1Description": "Etapa 1 de 3: Elige tu perfil de usuario",
-      "step2Description": "Etapa 2 de 3: Identificación y Ubicación",
-      "step3Description": "Etapa 3 de 3: Historial médico y restricciones",
-      "completed": "completo"
+      "step1Description": "Paso 1 de 3: Elige tu perfil de usuario",
+      "step2Description": "Paso 2 de 3: Identificación y ubicación",
+      "step3Description": "Paso 3 de 3: Historial médico y restricciones",
+      "completed": "completado"
     },
     "step2": {
-      "title": "Datos Personales",
+      "title": "Datos personales",
       "subtitle": "Completa tu información personal para continuar con el proceso de donación.",
-      "fullName": "Nombre ",
+      "fullName": "Nombre completo",
       "fullNamePlaceholder": "Tu nombre completo",
       "email": "Correo electrónico",
-      "emailPlaceholder": "sucorreo@ejemplo.com",
+      "emailPlaceholder": "tucorreo@ejemplo.com",
       "phone": "Teléfono",
       "phonePlaceholder": "Tu número de teléfono",
       "cpf": "CPF",
@@ -314,7 +314,7 @@
       "address": "Dirección",
       "addressPlaceholder": "Tu dirección completa",
       "city": "Ciudad",
-      "cep": "Código Postal",
+      "cep": "Código postal",
       "cepPlaceholder": "Tu código postal",
       "cityPlaceholder": "Tu ciudad",
       "state": "Estado",
@@ -325,43 +325,43 @@
     },
     "step3": {
       "title": "Salud",
-      "subtitle": "Casi listo! Necesitamos saber tu tipo de sangre para conectarte con las donaciones necesarias en tu área.",
+      "subtitle": "¡Casi listo! Necesitamos conocer tu tipo de sangre para conectarte con las donaciones necesarias en tu área.",
       "bloodTypeLabel": "Tipo de sangre",
-      "urgencyLabel": "Deseo recibir notificaciones de urgencia",
-      "urgencyDescription": "Serás avisado cuando haya falta crítica de tu tipo de sangre cerca de ti.",
-      "privacyNote": "Tus datos están protegidos por los altos estándares de la LGPD y solo se compartirán con instituciones de salud autorizadas."
+      "urgencyLabel": "Quiero recibir notificaciones urgentes",
+      "urgencyDescription": "Serás notificado cuando haya escasez crítica de tu tipo de sangre cerca de ti.",
+      "privacyNote": "Tus datos están protegidos por los estándares de la LGPD y solo se compartirán con instituciones de salud autorizadas."
     }
   },
-    "notFound": {
-      "title": "Ops... ¿Te perdiste?",
-      "description": "La página que buscas no existe. ¿Por qué no intentas volver a la ",
-      "homeLink": "página inicial"
+  "notFound": {
+    "title": "Ups... ¿te perdiste?",
+    "description": "La página que buscas no existe. ¿Por qué no intentas volver al ",
+    "homeLink": "inicio"
+  },
+  "login": {
+    "visualImageSection": {
+      "title": "Salvando vidas",
+      "subtitle": "Tu donación es el vínculo que mantiene la vida latiendo.",
+      "description": "Conectamos donantes con los centros de sangre más cercanos de forma rápida y segura. Descubre dónde tu ayuda es más necesaria ahora.",
+      "donors": "Donantes activos",
+      "lives": "Vidas impactadas",
+      "hospitals": "Hospitales asociados"
     },
-    "login": {
-      "visualImageSection": {
-        "title": "Salvando vidas",
-        "subtitle": "Tu donación es el elo que mantiene la vida latiendo.",
-        "description": "Conectamos donantes con los centros de sangre más cercanos de forma rápida y segura. Descubre dónde tu ayuda es más necesaria ahora.",
-        "donors": "Donantes activos",
-        "lives": "Vidas impactadas",
-        "hospitals": "Hospitales socios"
-      },
-      "loginForm": {
-        "title": "Vida en Red",
-        "subtitle": "Doe vida, conecte corazones",
-        "welcome": "Bienvenido de nuevo",
-        "notMember": "¿Aún no eres miembro?",
-        "createAccount": "Crear una cuenta",
-        "email": "Correo electrónico",
-        "emailPlaceholder": "nombre@ejemplo.com",
-        "password": "Contraseña",
-        "forgotPassword": "¿Olvidaste tu contraseña?",
-        "passwordPlaceholder": "••••••••",
-        "login": "Iniciar sesión"
-      }
-    },
-    "theme": {
-      "switchToLight": "Cambiar a modo claro",
-      "switchToDark": "Cambiar a modo oscuro"
+    "loginForm": {
+      "title": "Vida en Red",
+      "subtitle": "Dona vida, conecta corazones",
+      "welcome": "Bienvenido de nuevo",
+      "notMember": "¿Aún no eres miembro?",
+      "createAccount": "Crear una cuenta",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "nombre@ejemplo.com",
+      "password": "Contraseña",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "passwordPlaceholder": "••••••••",
+      "login": "Iniciar sesión"
     }
+  },
+  "theme": {
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
+  }
 }
