@@ -334,7 +334,7 @@
   },
     "notFound": {
       "title": "Ops... Did you get lost?",
-      "description": "The page you're looking for doesn't exist. Why not try going back to the ",
+      "description": "The page you're looking for doesn't exist. Why not try going back ",
       "homeLink": "home"
     }
 }
