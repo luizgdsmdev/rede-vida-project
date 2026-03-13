@@ -5,7 +5,7 @@ const VisualImageSection = () => {
   const { t } = useTranslation();
   return (
     <div className="hidden md:block w-full md:w-1/2 lg:w-1/2 relative overflow-hidden bg-background-dark h-full">
-        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-10000 hover:scale-110" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCUOpfvp5GhRdUiifyQJ46d50CrYoAtejmF_goM4tFqNp2tAc8VzAQDcqswZ3jtvxcSHbwkB5AxhryRWGjhLBy_gQ0AXbyr-1k9VsXIOizo0ped5J3w4cb1k1xBZc5dkp1F3urs9lreQPp9Fkf6fyp8NrqLVWYTnfBYlzfqBa4KuvSKoxOQHQKwxcRDp2jXtCA-MUabDPVdaKleaUdYEj0iIdIjo-k4FZcBRe3JkFxJIhImR6QgVPoZQkSBcZHSf6QtnEUBlpM3bZQ')" }}></div>
+        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-10000 hover:scale-110" style={{ backgroundImage: "url('/assets/pages/login/hero-image-login.png')" }}></div>
         <div className="absolute inset-0 bg-gradient-to-tr from-primary/90 via-primary/40 to-transparent mix-blend-multiply"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-background-dark/80 via-transparent to-transparent"></div>
         <div className="absolute top-12 sm:top-6 md:top-0 md:pl-6 lg:top-12 left-0 p-4 pt-4 pb-8 md:p-16 text-white max-w-xl">

@@ -84,7 +84,7 @@ const InteractiveSearch = () => {
                     </div>
                 </div>
                 <div className="flex-1 bg-[#e5e7eb] dark:bg-[#1a1112] relative min-h-[400px]">
-                    <div className="absolute inset-0 bg-cover bg-center grayscale dark:invert opacity-30" data-alt="Abstract map background showing street grid" data-location="São Paulo" style={{backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDsU3wysApO6t6uj6ajuehtZrramSvdFusi1FOYWoqQTjjcoSM9XI8V3RYLKyW9nuQdGXeT0M7mb-6AhKbwixh9095N11Mb3enIWydEP-zQLPZlXrr8NsJ5r5D--im_HDA_EPSMiqwX43juSlQDO-p4TbJx8lBCCERTbA85KDkFkYonxVQwoyaCOQ7fPQ_NNQPH8yOQjRgp7h0EHlLPSD7WGbVqXKINq81Tf-TfIc-KLpYS05B1rXIwmx-lM0VEAXvKFmlBgUK2DA')"}}></div>
+                    <div className="absolute inset-0 bg-cover bg-center grayscale dark:invert opacity-30" data-alt="Abstract map background showing street grid" data-location="São Paulo" style={{backgroundImage: "url('/assets/pages/home/map-image-home.png')"}}></div>
                     <div className="absolute inset-0 flex items-center justify-center">
                         <div className="relative">
                             <div className="absolute -top-12 -left-20 bg-white dark:bg-background-dark p-2 rounded shadow-lg border border-primary/20 flex items-center gap-2">
