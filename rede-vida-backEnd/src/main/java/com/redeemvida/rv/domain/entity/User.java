@@ -1,4 +1,4 @@
-package com.redeemvida.rv.domain.model;
+package com.redeemvida.rv.domain.entity;
 import java.util.UUID;
 
 public class User {

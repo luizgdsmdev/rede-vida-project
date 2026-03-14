@@ -1,7 +1,7 @@
-package com.redeemvida.rv.interfaces.controller;
+package com.redeemvida.rv.infrastructure.controller;
 
 import com.redeemvida.rv.application.usecase.FindNearestCentersUseCase;
-import com.redeemvida.rv.domain.model.DonationCenter;
+import com.redeemvida.rv.domain.entity.DonationCenter;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

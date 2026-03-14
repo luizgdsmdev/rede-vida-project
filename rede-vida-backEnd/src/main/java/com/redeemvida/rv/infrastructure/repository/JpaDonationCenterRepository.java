@@ -1,6 +1,6 @@
-package com.redeemvida.rv.infrastructure.persistence;
+package com.redeemvida.rv.infrastructure.repository;
 
-import com.redeemvida.rv.domain.model.DonationCenter;
+import com.redeemvida.rv.domain.entity.DonationCenter;
 import com.redeemvida.rv.domain.repository.DonationCenterRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;

@@ -1,6 +1,6 @@
 package com.redeemvida.rv.domain.repository;
 
-import com.redeemvida.rv.domain.model.DonationCenter;
+import com.redeemvida.rv.domain.entity.DonationCenter;
 import java.util.List;
 
 public interface DonationCenterRepository {

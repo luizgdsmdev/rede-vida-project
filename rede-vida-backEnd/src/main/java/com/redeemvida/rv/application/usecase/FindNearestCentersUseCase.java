@@ -1,6 +1,6 @@
 package com.redeemvida.rv.application.usecase;
 
-import com.redeemvida.rv.domain.model.DonationCenter;
+import com.redeemvida.rv.domain.entity.DonationCenter;
 import com.redeemvida.rv.domain.repository.DonationCenterRepository;
 
 import java.util.List;

@@ -13,7 +13,7 @@ import jakarta.persistence.EntityManagerFactory;
 import java.util.Properties;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "com.redeemvida.rv.infrastructure.persistence.repository")
+@EnableJpaRepositories(basePackages = "com.redeemvida.rv.infrastructure.repository")
 @ComponentScan(basePackages = "com.redeemvida.rv.infrastructure.persistence.entity")
 public class DatabaseConfig {
 
