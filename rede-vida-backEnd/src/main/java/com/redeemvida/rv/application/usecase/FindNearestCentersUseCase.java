@@ -2,9 +2,11 @@ package com.redeemvida.rv.application.usecase;
 
 import com.redeemvida.rv.domain.entity.DonationCenter;
 import com.redeemvida.rv.domain.repository.DonationCenterRepository;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class FindNearestCentersUseCase {
     private final DonationCenterRepository repository;
 

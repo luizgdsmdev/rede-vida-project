@@ -11,9 +11,10 @@ This project follows Clean Architecture principles with clear separation of conc
 **Technology Stack:**
 - **Framework:** Spring Boot 4.0.3
 - **Language:** Java 21
-- **Database:** H2 (Development), MySQL/PostgreSQL (Production)
-- **ORM:** Spring Data JPA with Hibernate
+- **Database:** PostgreSQL + PostGIS (All environments)
+- **ORM:** Spring Data JPA with Hibernate Spatial
 - **Build Tool:** Maven
+- **Containerization:** Docker & Docker Compose
 - **Architecture:** Clean Architecture
 
 **Project Structure:**
@@ -100,18 +101,70 @@ rede-vida-UI/
 ### Prerequisites
 - Java 21+
 - Maven 3.6+
+- Docker Desktop
 - Node.js 18+
 - npm or yarn
 
 ### Backend Setup
+
+#### 🐳 With Docker (Recommended)
+The application automatically starts PostgreSQL with PostGIS:
+
 ```bash
 cd rede-vida-backEnd
-mvn clean install
 mvn spring-boot:run
 ```
 
-The backend will be available at `http://localhost:8080`
-H2 Console: `http://localhost:8080/h2-console`
+#### 🔧 Without Docker (Manual Database)
+If PostgreSQL is already running:
+
+```bash
+cd rede-vida-backEnd
+mvn spring-boot:run "-Dskip.docker=true"
+```
+
+#### 🌐 Full Docker Environment
+Run the complete stack with Docker Compose:
+
+```bash
+docker-compose up --build
+```
+
+**API Endpoints:**
+- **Backend:** `http://localhost:8080`
+- **Find Nearest Centers:** `GET /centers/nearest?lat={latitude}&lng={longitude}`
+
+**Example Usage:**
+```bash
+# Find centers near São Paulo
+curl "http://localhost:8080/centers/nearest?lat=-23.5505&lng=-46.6333"
+
+# PowerShell
+Invoke-WebRequest -Uri "http://localhost:8080/centers/nearest?lat=-23.5505&lng=-46.6333" -Method GET
+```
+
+### 🗄️ Database Configuration
+
+**Environment Variables (.env):**
+```env
+# PostgreSQL Configuration
+POSTGRES_DB=geodb
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_PORT=5432
+
+# Spring Boot Datasource
+SPRING_DATASOURCE_URL=jdbc:postgresql://postgis:5432/geodb
+SPRING_DATASOURCE_USERNAME=postgres
+SPRING_DATASOURCE_PASSWORD=postgres
+```
+
+**Database Features:**
+- **PostgreSQL 16** with **PostGIS 3.4** for spatial data
+- **Automatic container startup** via Maven plugin
+- **Connection pooling** with HikariCP
+- **Spatial queries** for location-based searches
+- **Health checks** for database connectivity
 
 ### Frontend Setup
 ```bash
@@ -157,9 +210,3 @@ The frontend will be available at `http://localhost:5173`
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Partners
-
-Developed in partnership with EDN (cloud school) as part of an AWS certification course.
-
----

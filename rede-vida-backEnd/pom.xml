@@ -63,12 +63,7 @@
 			<version>1.19.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.hibernate.orm</groupId>
-			<artifactId>hibernate-spatial</artifactId>
-			<version>6.4.8.Final</version>
-		</dependency>
-
+		
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -126,6 +121,70 @@
 						</exclude>
 					</excludes>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.spotify</groupId>
+				<artifactId>dockerfile-maven-plugin</artifactId>
+				<version>1.4.13</version>
+				<configuration>
+					<repository>postgis</repository>
+					<tag>latest</tag>
+					<buildArgs>
+						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+					</buildArgs>
+				</configuration>
+				<executions>
+					<execution>
+						<id>start-database</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>build</goal>
+						</goals>
+						<configuration>
+							<skip>true</skip>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.1.0</version>
+				<executions>
+					<execution>
+						<id>start-postgres</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>docker-compose</executable>
+							<arguments>
+								<argument>up</argument>
+								<argument>postgis</argument>
+								<argument>-d</argument>
+							</arguments>
+							<workingDirectory>${project.parent.basedir}</workingDirectory>
+							<skip>${skip.docker}</skip>
+						</configuration>
+					</execution>
+					<execution>
+						<id>wait-for-db</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>ping</executable>
+							<arguments>
+								<argument>127.0.0.1</argument>
+								<argument>-n</argument>
+								<argument>10</argument>
+							</arguments>
+							<skip>${skip.docker}</skip>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
