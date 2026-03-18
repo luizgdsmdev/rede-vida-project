@@ -14,13 +14,11 @@ Our frontend follows a modular component-based architecture:
 src/
 ├── components/
 │   ├── pages/                      # Page components
-│   │   ├── home/                   # Home page
 │   │   ├── login/                  # Authentication
 │   │   ├── donateNow/              # Donation flow
 │   │   ├── about/                  # About page
 │   │   ├── contact/                # Contact page
 │   │   ├── location/               # Find donation centers
-│   │   ├── requirements/          # Donation requirements
 │   │   └── pageNotFund/            # 404 page
 │   └── shared/                     # Reusable components
 │       ├── header/                 # Navigation header
@@ -29,9 +27,11 @@ src/
 │       ├── themeToggle/            # Theme switcher
 │       └── ScrollAnimation/        # Animation utilities
 ├── locales/                        # Internationalization
-│   ├── en/                         # English translations
-│   ├── pt/                         # Portuguese translations
-│   └── es/                         # Spanish translations
+│   ├── en/translation.json         # English translations
+│   ├── pt/translation.json         # Portuguese translations
+│   └── es/translation.json         # Spanish translations
+├── i18n/                           # i18n configuration
+│   └── i18n.js                    # Main i18n setup
 ├── assets/                         # Static assets
 ├── App.jsx                         # Main application component
 ├── main.jsx                        # Application entry point
@@ -93,6 +93,12 @@ pages/
 │   ├── Login.jsx                   # Login component
 │   ├── Login.css                   # Login styles
 │   └── index.js                    # Export file
+├── donateNow/
+│   ├── DonateNow.jsx               # Donation flow component
+│   ├── Step1Donate.jsx             # Step 1 of donation
+│   ├── Step2Donate.jsx             # Step 2 of donation
+│   ├── Step3Donate.jsx             # Step 3 of donation
+│   └── index.js                    # Export file
 └── ...
 ```
 
@@ -110,6 +116,14 @@ shared/
 │   ├── Footer.jsx                  # Footer component
 │   ├── Footer.css                  # Footer styles
 │   └── index.js                    # Export file
+├── loading/
+│   ├── Loading.jsx                 # Loading component
+│   ├── Loading.css                 # Loading styles
+│   └── index.js                    # Export file
+├── themeToggle/
+│   ├── ThemeToggle.jsx             # Theme toggle component
+│   ├── ThemeToggle.css             # Theme toggle styles
+│   └── index.js                    # Export file
 └── ...
 ```
 
@@ -120,17 +134,11 @@ Translation files organized by language:
 ```bash
 locales/
 ├── en/
-│   ├── common.json                 # Common translations
-│   ├── home.json                   # Home page translations
-│   └── navigation.json             # Navigation translations
+│   └── translation.json            # English translations
 ├── pt/
-│   ├── common.json                 # Common translations (Portuguese)
-│   ├── home.json                   # Home page translations (Portuguese)
-│   └── navigation.json             # Navigation translations (Portuguese)
+│   └── translation.json            # Portuguese translations
 └── es/
-    ├── common.json                 # Common translations (Spanish)
-    ├── home.json                   # Home page translations (Spanish)
-    └── navigation.json             # Navigation translations (Spanish)
+    └── translation.json            # Spanish translations
 ```
 
 ## Getting Started
@@ -276,21 +284,27 @@ module.exports = {
 ### i18next Configuration
 
 ```javascript
-// src/i18n.js
+// src/i18n/i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import enTranslations from './locales/en';
-import ptTranslations from './locales/pt';
-import esTranslations from './locales/es';
+import enTranslations from '../locales/en/translation.json';
+import ptTranslations from '../locales/pt/translation.json';
+import esTranslations from '../locales/es/translation.json';
 
 i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: enTranslations,
-      pt: ptTranslations,
-      es: esTranslations,
+      en: {
+        translation: enTranslations
+      },
+      pt: {
+        translation: ptTranslations
+      },
+      es: {
+        translation: esTranslations
+      },
     },
     lng: 'en', // default language
     fallbackLng: 'en',

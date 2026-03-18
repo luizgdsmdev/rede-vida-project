@@ -13,17 +13,7 @@ Production: https://api.redevida.com/api/v1
 
 ## Authentication
 
-Currently, the API uses basic authentication. Future implementations will include JWT and OAuth 2.0.
-
-### Basic Authentication
-
-```bash
-# Using curl
-curl -u username:password http://localhost:8080/api/v1/users
-
-# Using headers
-curl -H "Authorization: Basic $(echo -n 'username:password' | base64)" http://localhost:8080/api/v1/users
-```
+Currently, the API does not require authentication. Future implementations will include JWT and OAuth 2.0.
 
 ## API Endpoints
 
@@ -234,54 +224,22 @@ Empty response body
 
 ### Donation Centers API
 
-#### Get All Donation Centers
-
-Retrieve a list of all donation centers.
-
-```http
-GET /api/v1/centers
-```
-
-**Response:**
-
-```json
-[
-  {
-    "id": "660e8400-e29b-41d4-a716-446655440000",
-    "name": "Central Blood Bank",
-    "address": "123 Main St, City, State",
-    "latitude": -23.5505,
-    "longitude": -46.6333,
-    "phone": "+1234567890",
-    "email": "central@bloodbank.com",
-    "createdAt": "2024-03-16T10:30:00Z",
-    "updatedAt": "2024-03-16T10:30:00Z"
-  }
-]
-```
-
-**Status Codes:**
-- `200 OK`: Centers retrieved successfully
-
----
-
 #### Get Nearest Donation Centers
 
 Find donation centers near a specific location.
 
 ```http
-GET /api/v1/centers/nearest?lat={latitude}&lng={longitude}&radius={radius}
+GET /api/v1/centers/nearest?lat={latitude}&lng={longitude}
 ```
 
 **Query Parameters:**
 - `lat` (Decimal): Latitude (required)
 - `lng` (Decimal): Longitude (required)
-- `radius` (Integer): Search radius in kilometers (optional, default: 10)
 
 **Example Request:**
 
 ```bash
-GET /api/v1/centers/nearest?lat=-23.5505&lng=-46.6333&radius=5
+GET /api/v1/centers/nearest?lat=-23.5505&lng=-46.6333
 ```
 
 **Response:**
@@ -295,10 +253,7 @@ GET /api/v1/centers/nearest?lat=-23.5505&lng=-46.6333&radius=5
     "latitude": -23.5505,
     "longitude": -46.6333,
     "phone": "+1234567890",
-    "email": "central@bloodbank.com",
-    "distance": 2.5,
-    "createdAt": "2024-03-16T10:30:00Z",
-    "updatedAt": "2024-03-16T10:30:00Z"
+    "email": "central@bloodbank.com"
   }
 ]
 ```
@@ -350,20 +305,16 @@ Error responses follow this structure:
 | `UNAUTHORIZED` | 401 | Authentication required |
 | `FORBIDDEN` | 403 | Insufficient permissions |
 | `INTERNAL_ERROR` | 500 | Internal server error |
-
 ## Usage Examples
 
 ### Using curl
 
-```bash
 # Get all users
-curl -X GET "http://localhost:8080/api/v1/users" \
-  -H "Authorization: Basic $(echo -n 'admin:password' | base64)"
+curl -X GET "http://localhost:8080/api/v1/users"
 
 # Create a new user
 curl -X POST "http://localhost:8080/api/v1/users" \
   -H "Content-Type: application/json" \
-  -H "Authorization: Basic $(echo -n 'admin:password' | base64)" \
   -d '{
     "name": "John Doe",
     "email": "john.doe@example.com",
@@ -372,9 +323,7 @@ curl -X POST "http://localhost:8080/api/v1/users" \
   }'
 
 # Find nearest centers
-curl -X GET "http://localhost:8080/api/v1/centers/nearest?lat=-23.5505&lng=-46.6333" \
-  -H "Authorization: Basic $(echo -n 'admin:password' | base64)"
-```
+curl -X GET "http://localhost:8080/api/v1/centers/nearest?lat=-23.5505&lng=-46.6333"
 
 ### Using JavaScript/TypeScript
 

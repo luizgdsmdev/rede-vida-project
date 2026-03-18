@@ -1,5 +1,7 @@
 # Rede Vida Project
 
+> **⚠️ Development Status**: This project is currently under development. New features and improvements are being actively developed. Please check the issues and projects sections to see what's being worked on.
+
 A comprehensive blood donation platform developed as a final project for an AWS course in partnership with official partner EDN (cloud school). This platform connects blood donors with blood banks, facilitating life-saving donations through modern web technologies.
 
 ## Overview
@@ -94,12 +96,12 @@ For detailed information, consult our organized documentation:
 
 ## Key Features
 
-- ✅ **Donor Registration**: Simple registration process
-- ✅ **Center Location**: Georeferenced search for donation centers
-- ✅ **Scheduling**: Complete donation scheduling system
-- ✅ **Multi-language**: Support for Portuguese, English, and Spanish
-- ✅ **Responsive Design**: Optimized experience for all devices
-- ✅ **Notifications**: Real-time alerts for donation opportunities
+- **Donor Registration**: Simple registration process
+- **Center Location**: Georeferenced search for donation centers
+- **Scheduling**: Complete donation scheduling system
+- **Multi-language**: Support for Portuguese, English, and Spanish
+- **Responsive Design**: Optimized experience for all devices
+- **Notifications**: Real-time alerts for donation opportunities
 
 ## Technology Stack
 

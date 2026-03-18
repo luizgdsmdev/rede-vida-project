@@ -54,6 +54,21 @@ docker-compose up --build
 # API Documentation: http://localhost:8080/swagger-ui.html
 ```
 
+### Environment Variables
+
+```bash
+# Database Configuration
+POSTGRES_DB=rede_vida
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_PORT=5432
+
+# Spring Boot Configuration
+SPRING_DATASOURCE_URL=jdbc:postgresql://postgis:5432/rede_vida
+SPRING_DATASOURCE_USERNAME=postgres
+SPRING_DATASOURCE_PASSWORD=postgres
+```
+
 ### Development Workflow
 
 ```bash

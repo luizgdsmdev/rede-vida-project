@@ -85,92 +85,44 @@ mvn spring-boot:run "-Dskip.docker=true"
 
 ```yaml
 # docker-compose.yml
-version: '3.8'
-
 services:
-  # PostgreSQL Database
-  postgres:
+  postgis:
     image: postgis/postgis:16-3.4
-    container_name: redevida-postgres
-    environment:
-      POSTGRES_DB: geodb
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_INITDB_ARGS: "--encoding=UTF-8"
+    container_name: postgis_db
+    restart: unless-stopped
+    env_file:
+      - .env
     ports:
-      - "5432:5432"
+      - "${POSTGRES_PORT}:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./db/init:/docker-entrypoint-initdb.d
-    networks:
-      - redevida-network
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - backend
 
-  # Backend Application
-  backend:
-    build:
-      context: ./rede-vida-backEnd
-      dockerfile: Dockerfile
-    container_name: redevida-backend
-    environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/geodb
-      SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: postgres
-      SPRING_PROFILES_ACTIVE: docker
+  api:
+    build: ./rede-vida-backEnd
+    container_name: donation_api
+    depends_on:
+      postgis:
+        condition: service_healthy
+    env_file:
+      - .env
     ports:
       - "8080:8080"
-    depends_on:
-      postgres:
-        condition: service_healthy
     networks:
-      - redevida-network
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/actuator/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-
-  # Frontend Application
-  frontend:
-    build:
-      context: ./rede-vida-UI
-      dockerfile: Dockerfile
-    container_name: redevida-frontend
-    ports:
-      - "5173:5173"
-    environment:
-      VITE_API_URL: http://localhost:8080/api/v1
-    depends_on:
       - backend
-    networks:
-      - redevida-network
 
-  # Nginx Reverse Proxy (Optional)
-  nginx:
-    image: nginx:alpine
-    container_name: redevida-nginx
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx/ssl:/etc/nginx/ssl
-    depends_on:
-      - frontend
-      - backend
-    networks:
-      - redevida-network
+networks:
+  backend:
 
 volumes:
   postgres_data:
-
-networks:
-  redevida-network:
-    driver: bridge
 ```
 
 #### Backend Dockerfile
@@ -484,12 +436,10 @@ gcloud run deploy redevida-backend \
 POSTGRES_DB=geodb
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
-POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
 
 # Spring Boot Configuration
-SPRING_PROFILES_ACTIVE=dev
-SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/geodb
+SPRING_DATASOURCE_URL=jdbc:postgresql://postgis:5432/geodb
 SPRING_DATASOURCE_USERNAME=postgres
 SPRING_DATASOURCE_PASSWORD=postgres
 

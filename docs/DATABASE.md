@@ -33,29 +33,29 @@ CREATE TABLE users (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     name VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
+    cep VARCHAR(10),
+    latitude DECIMAL(10, 8),
+    longitude DECIMAL(11, 8),
+    cpf VARCHAR(11) UNIQUE,
     phone VARCHAR(20),
-    blood_type VARCHAR(10) CHECK (blood_type IN ('A+', 'A-', 'B+', 'B-', 'O+', 'O-', 'AB+', 'AB-')),
-    date_of_birth DATE,
-    gender VARCHAR(10) CHECK (gender IN ('MALE', 'FEMALE', 'OTHER')),
-    address TEXT,
+    birth_date TIMESTAMP,
     city VARCHAR(100),
     state VARCHAR(50),
-    postal_code VARCHAR(20),
-    country VARCHAR(100) DEFAULT 'Brazil',
-    is_active BOOLEAN DEFAULT true,
-    is_donor BOOLEAN DEFAULT false,
-    last_donation_date DATE,
-    total_donations INTEGER DEFAULT 0,
+    blood_type VARCHAR(10),
+    receive_notifications BOOLEAN DEFAULT false,
+    user_profile VARCHAR(50),
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    active BOOLEAN DEFAULT true
 );
 
 -- Indexes
 CREATE INDEX idx_users_email ON users(email);
+CREATE INDEX idx_users_cpf ON users(cpf);
 CREATE INDEX idx_users_blood_type ON users(blood_type);
-CREATE INDEX idx_users_is_donor ON users(is_donor);
 CREATE INDEX idx_users_city ON users(city);
 CREATE INDEX idx_users_state ON users(state);
+CREATE INDEX idx_users_active ON users(active);
 CREATE INDEX idx_users_created_at ON users(created_at);
 ```
 
@@ -207,8 +207,8 @@ CREATE INDEX idx_users_audit_changed_at ON users_audit(changed_at);
 ### Database Connection
 
 ```properties
-# application.properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/geodb
+# Database Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/rede_vida
 spring.datasource.username=postgres
 spring.datasource.password=postgres
 spring.datasource.driver-class-name=org.postgresql.Driver
@@ -221,8 +221,8 @@ spring.datasource.hikari.max-lifetime=1200000
 spring.datasource.hikari.connection-timeout=20000
 
 # JPA Configuration
-spring.jpa.hibernate.ddl-auto=validate
-spring.jpa.show-sql=false
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 spring.jpa.properties.hibernate.jdbc.batch_size=20
 spring.jpa.properties.hibernate.order_inserts=true

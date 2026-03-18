@@ -69,12 +69,16 @@ domain/
 ├── repository/
 │   ├── UserRepository.java        # User repository interface
 │   └── DonationCenterRepository.java # Donation center repository interface
-├── service/
-│   ├── UserService.java            # User domain service
-│   └── DonationCenterService.java  # Donation center domain service
-└── exception/
-    ├── BusinessException.java     # Custom business exception
-    └── ResourceNotFoundException.java # Resource not found exception
+├── dto/
+│   ├── UserCreateDTO.java          # User creation DTO
+│   ├── UserResponseDTO.java        # User response DTO
+│   └── UserUpdateDTO.java          # User update DTO
+├── exception/
+│   ├── BusinessException.java     # Custom business exception
+│   └── ResourceNotFoundException.java # Resource not found exception
+└── usecase/
+    ├── UserService.java            # User domain service
+    └── FindNearestCentersUseCase.java # Find nearest centers use case
 ```
 
 ### Application Layer
@@ -86,15 +90,11 @@ application/
 ├── dto/
 │   ├── UserCreateDTO.java          # User creation DTO
 │   ├── UserResponseDTO.java        # User response DTO
-│   ├── UserUpdateDTO.java          # User update DTO
-│   └── DonationCenterDTO.java      # Donation center DTO
-├── usecase/
-│   ├── CreateUserUseCase.java      # Create user use case
-│   ├── FindUserUseCase.java        # Find user use case
-│   └── UpdateUserUseCase.java      # Update user use case
-└── service/
-    ├── UserService.java            # User application service
-    └── DonationCenterService.java  # Donation center application service
+│   └── UserUpdateDTO.java          # User update DTO
+└── usecase/
+    ├── CreateUserUseCase.java      # Create user use case
+    ├── FindUserUseCase.java        # Find user use case
+    └── UpdateUserUseCase.java      # Update user use case
 ```
 
 ### Infrastructure Layer
@@ -107,16 +107,14 @@ infrastructure/
 │   ├── UserController.java         # User REST controller
 │   └── DonationCenterController.java # Donation center REST controller
 ├── repository/
-│   ├── impl/
-│   │   ├── UserRepositoryImpl.java # JPA user repository
-│   │   └── DonationCenterRepositoryImpl.java # JPA donation center repository
+│   ├── JpaUserRepository.java      # JPA user repository
+│   └── JpaDonationCenterRepository.java # JPA donation center repository
 ├── config/
 │   ├── DatabaseConfig.java         # Database configuration
-│   ├── SecurityConfig.java         # Security configuration
-│   └── SwaggerConfig.java          # API documentation configuration
+│   └── OpenApiConfig.java          # API documentation configuration
 └── exception/
     ├── GlobalExceptionHandler.java # Global exception handler
-    └── RestExceptionHandler.java   # REST exception handler
+    └── ErrorResponse.java           # Error response DTO
 ```
 
 ## Getting Started
@@ -161,7 +159,7 @@ mvn spring-boot:run "-Dskip.docker=true"
 **Manual setup requirements:**
 - PostgreSQL 16+ installed locally
 - PostGIS 3.4+ extension installed
-- Database named `geodb` created
+- Database named `rede_vida` created
 - User `postgres` with password `postgres` (or configure in `.env`)
 
 #### Method 3: Full Docker Environment
@@ -278,15 +276,25 @@ The application uses the following configuration files:
 
 ```bash
 # Database Configuration
-POSTGRES_DB=geodb
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_PORT=5432
+spring.datasource.url=jdbc:postgresql://localhost:5432/rede_vida
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+spring.datasource.driver-class-name=org.postgresql.Driver
 
-# Spring Boot Configuration
-SPRING_DATASOURCE_URL=jdbc:postgresql://postgis:5432/geodb
-SPRING_DATASOURCE_USERNAME=postgres
-SPRING_DATASOURCE_PASSWORD=postgres
+# Connection Pool Configuration
+spring.datasource.hikari.maximum-pool-size=20
+spring.datasource.hikari.minimum-idle=5
+spring.datasource.hikari.idle-timeout=300000
+spring.datasource.hikari.max-lifetime=1200000
+spring.datasource.hikari.connection-timeout=20000
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.jdbc.batch_size=20
+spring.jpa.properties.hibernate.order_inserts=true
+spring.jpa.properties.hibernate.order_updates=true
 ```
 
 ## Development Guidelines
@@ -337,11 +345,29 @@ CREATE TABLE users (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     name VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
+    cep VARCHAR(10),
+    latitude DECIMAL(10, 8),
+    longitude DECIMAL(11, 8),
+    cpf VARCHAR(11) UNIQUE,
     phone VARCHAR(20),
+    birth_date TIMESTAMP,
+    city VARCHAR(100),
+    state VARCHAR(50),
     blood_type VARCHAR(10),
+    receive_notifications BOOLEAN DEFAULT false,
+    user_profile VARCHAR(50),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    active BOOLEAN DEFAULT true
 );
+
+-- Indexes
+CREATE INDEX idx_users_email ON users(email);
+CREATE INDEX idx_users_cpf ON users(cpf);
+CREATE INDEX idx_users_blood_type ON users(blood_type);
+CREATE INDEX idx_users_city ON users(city);
+CREATE INDEX idx_users_state ON users(state);
+CREATE INDEX idx_users_active ON users(active);
 ```
 
 ### Donation Center Entity
