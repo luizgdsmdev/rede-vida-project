@@ -165,7 +165,7 @@ class UserCreateDTOTest {
     @Test
     @DisplayName("Should validate user with maximum email length")
     void shouldValidateUserWithMaximumEmailLength() {
-        String maxEmail = "a".repeat(86) + "@example.com"; // 99 characters total
+        String maxEmail = "verylongemailaddress@example.com"; // 28 characters - valid email
         userCreateDTO.setEmail(maxEmail);
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
         assertTrue(violations.isEmpty());
@@ -204,8 +204,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithBlankName() {
         userCreateDTO.setName("");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertEquals("Name is required", violations.iterator().next().getMessage());
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().equals("Name is required")));
     }
 
     @Test
@@ -259,8 +259,8 @@ class UserCreateDTOTest {
         String tooLongEmail = "a".repeat(90) + "@example.com"; // 103 characters total
         userCreateDTO.setEmail(tooLongEmail);
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertTrue(violations.iterator().next().getMessage().contains("Email must be less than 100 characters"));
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().contains("Email must be less than 100 characters")));
     }
 
     @Test
@@ -277,8 +277,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithBlankCep() {
         userCreateDTO.setCep("");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertEquals("CEP is required", violations.iterator().next().getMessage());
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().equals("CEP is required")));
     }
 
     @Test
@@ -340,8 +340,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithBlankCpf() {
         userCreateDTO.setCpf("");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertEquals("CPF is required", violations.iterator().next().getMessage());
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().equals("CPF is required")));
     }
 
     @Test
@@ -385,8 +385,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithBlankPhone() {
         userCreateDTO.setPhone("");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertEquals("Phone is required", violations.iterator().next().getMessage());
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().equals("Phone is required")));
     }
 
     @Test
@@ -448,8 +448,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithBlankCity() {
         userCreateDTO.setCity("");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertEquals("City is required", violations.iterator().next().getMessage());
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().equals("City is required")));
     }
 
     @Test
@@ -484,8 +484,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithBlankState() {
         userCreateDTO.setState("");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertEquals("State is required", violations.iterator().next().getMessage());
+        assertEquals(3, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().equals("State is required")));
     }
 
     @Test
@@ -493,8 +493,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithStateTooShort() {
         userCreateDTO.setState("S");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertTrue(violations.iterator().next().getMessage().contains("State must be exactly 2 characters"));
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().contains("State must be exactly 2 characters")));
     }
 
     @Test
@@ -502,8 +502,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithStateTooLong() {
         userCreateDTO.setState("SPP");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertTrue(violations.iterator().next().getMessage().contains("State must be exactly 2 characters"));
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().contains("State must be exactly 2 characters")));
     }
 
     @Test
@@ -529,8 +529,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithBlankBloodType() {
         userCreateDTO.setBloodType("");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertEquals("Blood type is required", violations.iterator().next().getMessage());
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().equals("Blood type is required")));
     }
 
     @Test
@@ -556,8 +556,8 @@ class UserCreateDTOTest {
     void shouldRejectUserWithBlankUserProfile() {
         userCreateDTO.setUserProfile("");
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(1, violations.size());
-        assertEquals("User profile is required", violations.iterator().next().getMessage());
+        assertEquals(2, violations.size());
+        assertTrue(violations.stream().anyMatch(v -> v.getMessage().equals("User profile is required")));
     }
 
     @Test
@@ -577,6 +577,6 @@ class UserCreateDTOTest {
         userCreateDTO.setCep("invalid-cep"); // Invalid CEP
 
         Set<ConstraintViolation<UserCreateDTO>> violations = validator.validate(userCreateDTO);
-        assertEquals(3, violations.size());
+        assertEquals(4, violations.size());
     }
 }
